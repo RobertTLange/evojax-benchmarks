@@ -85,4 +85,9 @@ if __name__ == "__main__":
     )
     args, _ = parser.parse_known_args()
     config = load_config(args.config_fname, return_dotmap=True)
+
+    if config.gpu_id is not None:
+        os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
+            [str(i) for i in config.gpu_id]
+        )
     main(config)
