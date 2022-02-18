@@ -49,7 +49,9 @@ def main(config):
     )
 
     solver = Strategies[config.es_name](
-        **config.es_config.toDict(), param_size=policy.num_params
+        **config.es_config.toDict(),
+        param_size=policy.num_params,
+        seed=config.seed
     )
 
     # Train.
@@ -115,7 +117,7 @@ if __name__ == "__main__":
         "-config",
         "--config_fname",
         type=str,
-        default="configs/ars/cartpole_easy.yaml",
+        default="configs/ARS/cartpole_easy.yaml",
         help="Path to configuration yaml.",
     )
     args, _ = parser.parse_known_args()
