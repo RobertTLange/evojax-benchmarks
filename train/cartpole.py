@@ -78,36 +78,6 @@ def main(config):
     trainer.model_dir = log_dir
     trainer.run(demo_mode=True)
 
-    # Generate a GIF to visualize the policy.
-    best_params = trainer.solver.best_params[None, :]
-    task_reset_fn = jax.jit(test_task.reset)
-    policy_reset_fn = jax.jit(policy.reset)
-    step_fn = jax.jit(test_task.step)
-    act_fn = jax.jit(policy.get_actions)
-    rollout_key = jax.random.PRNGKey(seed=0)[None, :]
-
-    images = []
-    task_s = task_reset_fn(rollout_key)
-    policy_s = policy_reset_fn(task_s)
-    images.append(CartPoleSwingUp.render(task_s, 0))
-    done = False
-    step = 0
-    while not done:
-        act, policy_s = act_fn(task_s, best_params, policy_s)
-        task_s, r, d = step_fn(task_s, act)
-        step += 1
-        done = bool(d[0])
-        if step % 5 == 0:
-            images.append(CartPoleSwingUp.render(task_s, 0))
-
-    gif_file = os.path.join(
-        log_dir, "cartpole_{}.gif".format("hard" if hard else "easy")
-    )
-    images[0].save(
-        gif_file, save_all=True, append_images=images[1:], duration=40, loop=0
-    )
-    logger.info("GIF saved to {}".format(gif_file))
-
 
 if __name__ == "__main__":
     from mle_logging import load_config

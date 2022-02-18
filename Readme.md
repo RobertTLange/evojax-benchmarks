@@ -1,10 +1,10 @@
 # Utilities for Benchmarking EvoJAX Algorithms 
 
 ## TODOs
-- [ ] Rewrite waterworld envs for config setup
-- [ ] Rewrite MNIST for config setup
+- [x] Rewrite waterworld envs for config setup
+- [x] Rewrite MNIST for config setup
 - [ ] Add training script for brax from notebook example
-- [ ] Tune ARS on waterworld/brax
+- [ ] Tune ARS on waterworld/brax/mnist
 - [ ] Open PR for ARS & share repository
 - [ ] Add `mle-hyperopt` simple pipeline
 - [ ] Add more strategies to evojax
@@ -26,17 +26,17 @@ python train/cartpole.py -config configs/<es>/cartpole_easy.yaml
 python train/cartpole.py -config configs/<es>/cartpole_hard.yaml
 python train/waterworld.py -config configs/<es>/waterworld.yaml
 python train/waterworld_ma.py -config configs/<es>/waterworld_ma.yaml
-python train/brax_ant.py -config configs/<es>/brax_ant.yaml
+python train/brax_env.py -config configs/<es>/brax_ant.yaml
 python train/mnist.py -config configs/<es>/mnist.yaml
 ```
 
 ### Expected Runtimes on 4 A100 GPUs
 
-- Cartpole (easy) - 5 Minutes
-- Cartpole (hard) - 7 Minutes
+- Cartpole (easy - 1000 iters) - 5 Minutes
+- Cartpole (hard - 1000 iters) - 7 Minutes
 - Waterworld (1000 iters) - 30 Minutes 
 - Waterworld (MA - 2000 iters) - 20 Minutes
-- MNIST (5000 iters) - 
+- MNIST (2000 iters) - 12 Minutes
 - Brax Ant - 
 
 ## Hyperparameter Tuning with `mle-hyperopt`
@@ -50,9 +50,9 @@ python train/mnist.py -config configs/<es>/mnist.yaml
 
 |   | Benchmarks | Parameters | Results |
 |---|---|---|---|
-CartPole (easy) | 	900 (max_iter=2000)|[Link]()| 902.107 |
-CartPole (hard)	| 600 (max_iter=2000)|[Link]()| 666.6442 |
-Waterworld	| 6 (max_iter=2000)	 |[Link]()||
-Waterworld (MA)	| 2 (max_iter=5000)	| [Link]()||
-Brax Ant |	3000 (max_iter=1000) |[Link]()||
-MNIST	| 90.0 (max_iter=5000)	| [Link]()||
+CartPole (easy) | 	900 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/cartpole_easy.yaml)| 902.107 |
+CartPole (hard)	| 600 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/cartpole_hard.yaml)| 666.6442 |
+Waterworld	| 6 (max_iter=2000)	 |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/waterworld.yaml)||
+Waterworld (MA)	| 2 (max_iter=5000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/waterworld_ma.yaml)||
+Brax Ant |	3000 (max_iter=1000) |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/brax_ant.yaml)||
+MNIST	| 90.0 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/mnist.yaml)||

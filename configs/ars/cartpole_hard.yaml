@@ -10,7 +10,7 @@ es_config:
     lrate_init: 0.01
     lrate_decay: 0.999
     lrate_limit: 0.001
-    momentum": 0.0
+    momentum: 0.0
 hidden_size: 64
 num_tests: 100
 n_repeats: 16

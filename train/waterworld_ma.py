@@ -86,40 +86,6 @@ def main(config):
     trainer.model_dir = log_dir
     trainer.run(demo_mode=True)
 
-    # Visualize the policy.
-    task_reset_fn = jax.jit(test_task.reset)
-    policy_reset_fn = jax.jit(policy.reset)
-    step_fn = jax.jit(test_task.step)
-    action_fn = jax.jit(policy.get_actions)
-    best_params = jnp.repeat(
-        trainer.solver.best_params[None, :], num_agents, axis=0
-    )
-    key = jax.random.PRNGKey(0)[None, :]
-
-    task_state = task_reset_fn(key)
-    policy_state = policy_reset_fn(task_state)
-    screens = []
-    for _ in range(max_steps):
-        num_tasks, num_agents = task_state.obs.shape[:2]
-        task_state = task_state.replace(
-            obs=task_state.obs.reshape((-1, *task_state.obs.shape[2:]))
-        )
-        action, policy_state = action_fn(task_state, best_params, policy_state)
-        action = action.reshape(num_tasks, num_agents, *action.shape[1:])
-        task_state = task_state.replace(
-            obs=task_state.obs.reshape(
-                num_tasks, num_agents, *task_state.obs.shape[1:]
-            )
-        )
-        task_state, reward, done = step_fn(task_state, action)
-        screens.append(MultiAgentWaterWorld.render(task_state))
-
-    gif_file = os.path.join(log_dir, "water_world_ma.gif")
-    screens[0].save(
-        gif_file, save_all=True, append_images=screens[1:], duration=40, loop=0
-    )
-    logger.info("GIF saved to {}.".format(gif_file))
-
 
 if __name__ == "__main__":
     from mle_logging import load_config

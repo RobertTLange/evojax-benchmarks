@@ -1,60 +1,35 @@
-# Copyright 2022 The EvoJAX Authors.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-"""Train an agent to solve the WaterWorld task.
-
-In this task, an agent (yellow) tries to catch as much food (green) as possible
-while avoiding poisons (red).
-This task is based on:
-https://cs.stanford.edu/people/karpathy/reinforcejs/waterworld.html
-
-Example command to run this script: `python train_waterworld.py --gpu-id=0`
-"""
+"""Train an agent to solve a Brax task."""
 
 import argparse
 import os
 import shutil
-import jax
 
-from evojax.task.waterworld import WaterWorld
-from evojax.policy.mlp import MLPPolicy
-from evojax.algo import Strategies
 from evojax import Trainer
+from evojax.task.brax_task import BraxTask
+from evojax.policy import MLPPolicy
+from evojax.algo import Strategies
 from evojax import util
 
 
 def main(config):
-    log_dir = f"./log/{config.es_name}/water_world"
+    log_dir = f"./log/{config.es_name}/brax_{config.env_name}"
     if not os.path.exists(log_dir):
         os.makedirs(log_dir, exist_ok=True)
     logger = util.create_logger(
-        name="WaterWorld", log_dir=log_dir, debug=config.debug
+        name="CartPole", log_dir=log_dir, debug=config.debug
     )
-    logger.info("EvoJAX WaterWorld")
+
+    logger.info(f"EvoJAX Brax ({config.env_name}) Demo")
     logger.info("=" * 30)
 
-    max_steps = 500
-    train_task = WaterWorld(test=False, max_steps=max_steps)
-    test_task = WaterWorld(test=True, max_steps=max_steps)
+    train_task = BraxTask(env_name=config.env_name, test=False)
+    test_task = BraxTask(env_name=config.env_name, test=True)
     policy = MLPPolicy(
         input_dim=train_task.obs_shape[0],
-        hidden_dims=[
-            config.hidden_size,
-        ],
         output_dim=train_task.act_shape[0],
-        output_act_fn="softmax",
+        hidden_dims=[32, 32, 32, 32],
     )
+
     solver = Strategies[config.es_name](
         **config.es_config.toDict(),
         param_size=policy.num_params,
@@ -75,6 +50,7 @@ def main(config):
         seed=config.seed,
         log_dir=log_dir,
         logger=logger,
+        normalize_obs=True,
     )
     trainer.run(demo_mode=False)
 
@@ -94,7 +70,7 @@ if __name__ == "__main__":
         "-config",
         "--config_fname",
         type=str,
-        default="configs/ARS/cartpole_easy.yaml",
+        default="configs/ARS/brax_ant.yaml",
         help="Path to configuration yaml.",
     )
     args, _ = parser.parse_known_args()
