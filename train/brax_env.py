@@ -16,7 +16,7 @@ def main(config):
     if not os.path.exists(log_dir):
         os.makedirs(log_dir, exist_ok=True)
     logger = util.create_logger(
-        name="CartPole", log_dir=log_dir, debug=config.debug
+        name=f"Brax-{config.env_name}", log_dir=log_dir, debug=config.debug
     )
 
     logger.info(f"EvoJAX Brax ({config.env_name}) Demo")
