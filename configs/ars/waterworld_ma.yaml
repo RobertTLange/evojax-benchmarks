@@ -1,6 +1,7 @@
 es_name: "ARS"
 es_config:
   elite_ratio: 0.5
+  pop_size: 16
   init_stdev: 0.1
   decay_stdev: 0.999
   limit_stdev: 0.001

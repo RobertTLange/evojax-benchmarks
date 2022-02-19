@@ -1,35 +1,28 @@
-"""Train an agent to solve a Brax task."""
-
 import argparse
 import os
 import shutil
-
 from evojax import Trainer
-from evojax.task.brax_task import BraxTask
-from evojax.policy import MLPPolicy
 from evojax.algo import Strategies
 from evojax import util
+from problems import setup_problem
 
 
 def main(config):
-    log_dir = f"./log/{config.es_name}/brax_{config.env_name}"
+    # Setup logging.
+    log_dir = f"./log/{config.es_name}/{config.problem_type}"
     if not os.path.exists(log_dir):
         os.makedirs(log_dir, exist_ok=True)
     logger = util.create_logger(
-        name=f"Brax-{config.env_name}", log_dir=log_dir, debug=config.debug
+        name=f"{config.problem_type}", log_dir=log_dir, debug=config.debug
     )
 
-    logger.info(f"EvoJAX Brax ({config.env_name}) Demo")
+    logger.info(f"EvoJAX {config.problem_type}")
     logger.info("=" * 30)
 
-    train_task = BraxTask(env_name=config.env_name, test=False)
-    test_task = BraxTask(env_name=config.env_name, test=True)
-    policy = MLPPolicy(
-        input_dim=train_task.obs_shape[0],
-        output_dim=train_task.act_shape[0],
-        hidden_dims=[32, 32, 32, 32],
-    )
+    # Setup task.
+    train_task, test_task, policy = setup_problem(config, logger)
 
+    # Setup ES.
     solver = Strategies[config.es_name](
         **config.es_config.toDict(),
         param_size=policy.num_params,
@@ -59,7 +52,8 @@ def main(config):
     tar_file = os.path.join(log_dir, "model.npz")
     shutil.copy(src_file, tar_file)
     trainer.model_dir = log_dir
-    trainer.run(demo_mode=True)
+    score = trainer.run(demo_mode=True)
+    return score
 
 
 if __name__ == "__main__":

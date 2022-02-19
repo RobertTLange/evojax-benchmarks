@@ -1,4 +1,5 @@
 es_name: "ARS"
+problem_type: "waterworld"
 es_config:
   pop_size: 256
   elite_ratio: 0.1

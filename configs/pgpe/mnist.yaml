@@ -1,4 +1,5 @@
 es_name: "PGPE"
+problem_type: "mnist"
 es_config:
   pop_size: 64
   center_learning_rate: 0.006

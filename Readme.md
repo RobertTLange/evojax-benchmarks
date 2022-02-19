@@ -1,27 +1,33 @@
 # Utilities for Benchmarking EvoJAX Algorithms 
 
-This repository contains benchmark results, helper scripts, ES configurations and logs for testing the performance of evolutionary strategies in [`evojax`](https://github.com/google/evojax/).
+This repository contains benchmark results, helper scripts, ES configurations and logs for testing the performance of evolutionary strategies in [`evojax`](https://github.com/google/evojax/). These can come in handy, when aiming to merge a new JAX-based ES into the projects.
 
 ## Installation
 
 ```
-pip install evojax mle-logging
+pip install evojax mle-hyperopt
 ```
 
-## Running the Benchmark for an Evolution Strategy
+## Running the Benchmarks for an Evolution Strategy
 
 1. Fork `evojax`. 
-2. Add your strategy to `algo` and the `Strategies` wrapper.
-3. Add the task configurations to `configs/<es>/`.
-4. Get compute access and execute the training runs via:
+2. Add your strategy to `algo` and the `Strategies` wrapper in the `__init__.py` file.
+3. Add the base task configurations for you ES to `configs/<es>/`.
+4. Get compute access and execute the individual training runs for the base configurations via:
 
 ```
-python train/cartpole.py -config configs/<es>/cartpole_easy.yaml
-python train/cartpole.py -config configs/<es>/cartpole_hard.yaml
-python train/waterworld.py -config configs/<es>/waterworld.yaml
-python train/waterworld_ma.py -config configs/<es>/waterworld_ma.yaml
-python train/brax_env.py -config configs/<es>/brax_ant.yaml
-python train/mnist.py -config configs/<es>/mnist.yaml
+python train.py -config configs/<es>/cartpole_easy.yaml
+python train.py -config configs/<es>/cartpole_hard.yaml
+python train.py -config configs/<es>/waterworld.yaml
+python train.py -config configs/<es>/waterworld_ma.yaml
+python train.py -config configs/<es>/brax_ant.yaml
+python train.py -config configs/<es>/mnist.yaml
+```
+
+5. [OPTIONAL] Tune hyperparameters using [`mle-hyperopt`](https://github.com/mle-infrastructure/mle-hyperopt). Here is an example for running a grid search for ARS over different learning rates and perturbation standard deviations via
+
+```
+mle-search train.py -base configs/ARS/mnist.yaml -search configs/ARS/search.yaml -iters 25
 ```
 
 ### Expected Runtimes on 4 A100s
@@ -44,13 +50,12 @@ CartPole (easy) | 	900 (max_iter=1000)|[Link](https://github.com/RobertTLange/ev
 CartPole (hard)	| 600 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/cartpole_hard.yaml)| 666.6442 |
 Waterworld	| 6 (max_iter=500)	 |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/waterworld.yaml)| 6.1300 |
 Waterworld (MA)	| 2 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/waterworld_ma.yaml)| 1.4831 |
-Brax Ant |	3000 (max_iter=1000) |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/brax_ant.yaml)| 3298.9746 |
+Brax Ant |	3000 (max_iter=300) |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/brax_ant.yaml)| 3298.9746 |
 MNIST	| 90.0 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/mnist.yaml)| 0.9610 |
 
 
 ## TODOs
 - [ ] Merge all training scripts into single one?
-- [ ] Add simple `mle-hyperopt` pipeline
 - [ ] Add more strategies to evojax
 - [ ] Add additional configs/logs for other strategies
 
