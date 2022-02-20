@@ -5,7 +5,9 @@ This repository contains benchmark results, helper scripts, ES configurations an
 ## Installation
 
 ```
-pip install evojax mle-hyperopt
+pip install evojax
+pip install git+https://github.com/mle-infrastructure/mle-hyperopt.git@main
+pip install git+https://github.com/mle-infrastructure/mle-logging.git@main
 ```
 
 ## Running the Benchmarks for an Evolution Strategy
