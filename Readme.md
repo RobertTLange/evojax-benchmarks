@@ -46,3 +46,7 @@ Waterworld (MA)	| 2 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evo
 Brax Ant |	3000 (max_iter=300) |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/brax_ant.yaml)| 3298.9746 |
 MNIST	| 90.0 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/mnist.yaml)| 0.9610 |
 
+
+| Cartpole-Easy  | Cartpole-Hard | MNIST |
+|---|---|---|
+![](figures/ARS/cartpole_easy.png) | ![](figures/ARS/cartpole_hard.png) | ![](figures/ARS/mnist.png) |
