@@ -1,6 +1,7 @@
 es_name: "ARS"
 problem_type: "brax"
 env_name: "ant"
+normalize: true
 es_config:
   pop_size: 1024
   elite_ratio: 0.05

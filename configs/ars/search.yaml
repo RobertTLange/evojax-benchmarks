@@ -1,6 +1,6 @@
 num_iters: 25
 search_type: "Grid"
-maximize_objective: false
+maximize_objective: true
 verbose: true
 search_config:
   real:

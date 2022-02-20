@@ -1,5 +1,6 @@
 es_name: "ARS"
 problem_type: "cartpole_hard"
+normalize: false
 es_config:
   elite_ratio: 0.1
   pop_size: 100

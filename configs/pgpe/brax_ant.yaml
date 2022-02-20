@@ -1,6 +1,7 @@
 es_name: "PGPE"
 problem_type: "brax"
 env_name: "ant"
+normalize: true
 es_config:
   pop_size: 1024
   center_learning_rate: 0.01

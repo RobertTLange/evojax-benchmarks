@@ -13,7 +13,7 @@ pip install evojax mle-hyperopt
 1. Fork `evojax`. 
 2. Add your strategy to `algo` and the `Strategies` wrapper in the `__init__.py` file.
 3. Add the base task configurations for you ES to `configs/<es>/`.
-4. Get compute access and execute the individual training runs for the base configurations via:
+4. Get compute access and execute the individual training runs for the base/default configurations via:
 
 ```
 python train.py -config configs/<es>/cartpole_easy.yaml
@@ -24,20 +24,13 @@ python train.py -config configs/<es>/brax_ant.yaml
 python train.py -config configs/<es>/mnist.yaml
 ```
 
-5. [OPTIONAL] Tune hyperparameters using [`mle-hyperopt`](https://github.com/mle-infrastructure/mle-hyperopt). Here is an example for running a grid search for ARS over different learning rates and perturbation standard deviations via
+5. [OPTIONAL] Tune hyperparameters using [`mle-hyperopt`](https://github.com/mle-infrastructure/mle-hyperopt). Here is an example for running a grid search for ARS over different learning rates and perturbation standard deviations via:
 
 ```
-mle-search train.py -base configs/ARS/mnist.yaml -search configs/ARS/search.yaml -iters 25
+mle-search train.py -base configs/ARS/mnist.yaml -search configs/ARS/search.yaml -iters 25 -log log/ARS/mnist/
 ```
 
-### Expected Runtimes on 4 A100s
-
-- Cartpole (easy - 1000 iters) - ~5 Minutes
-- Cartpole (hard - 1000 iters) - ~7 Minutes
-- Waterworld (500 iters) - ~20 Minutes 
-- Waterworld (MA - 2000 iters) - ~20 Minutes
-- MNIST (2000 iters) - ~12 Minutes
-- Brax Ant (300 iters) - ~25 Minutes 
+This will sequentially execute 25 ARS-MNIST evolution runs for a grid of different learning rates and standard deviations. After the search has completed, you can access the search log at `log/ARS/mnist/search_log.yaml`
 
 ## Benchmark Results
 
@@ -52,10 +45,4 @@ Waterworld	| 6 (max_iter=500)	 |[Link](https://github.com/RobertTLange/evojax-be
 Waterworld (MA)	| 2 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/waterworld_ma.yaml)| 1.4831 |
 Brax Ant |	3000 (max_iter=300) |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/brax_ant.yaml)| 3298.9746 |
 MNIST	| 90.0 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/mnist.yaml)| 0.9610 |
-
-
-## TODOs
-- [ ] Merge all training scripts into single one?
-- [ ] Add more strategies to evojax
-- [ ] Add additional configs/logs for other strategies
 

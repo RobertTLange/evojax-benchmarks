@@ -1,15 +1,21 @@
-import argparse
 import os
 import shutil
 from evojax import Trainer
 from evojax.algo import Strategies
 from evojax import util
 from problems import setup_problem
+from dotmap import DotMap
+from mle_hyperopt.utils import save_yaml
 
 
 def main(config):
-    # Setup logging.
-    log_dir = f"./log/{config.es_name}/{config.problem_type}"
+    # Setup logging. - add id if in config (mle-search) else log to default
+    config = DotMap(config)
+    log_dir = f"./log/{config.es_name}/{config.problem_type}/"
+    if "search_eval_id" in config.keys():
+        log_dir += config.search_eval_id
+    else:
+        log_dir += "default"
     if not os.path.exists(log_dir):
         os.makedirs(log_dir, exist_ok=True)
     logger = util.create_logger(
@@ -18,6 +24,9 @@ def main(config):
 
     logger.info(f"EvoJAX {config.problem_type}")
     logger.info("=" * 30)
+
+    # Store evaluation configuration in log dir.
+    save_yaml(config.toDict(), os.path.join(log_dir, "config.yaml"))
 
     # Setup task.
     train_task, test_task, policy = setup_problem(config, logger)
@@ -43,7 +52,7 @@ def main(config):
         seed=config.seed,
         log_dir=log_dir,
         logger=logger,
-        normalize_obs=True,
+        normalize_obs=config.normalize,
     )
     trainer.run(demo_mode=False)
 
@@ -57,6 +66,7 @@ def main(config):
 
 
 if __name__ == "__main__":
+    import argparse
     from mle_logging import load_config
 
     parser = argparse.ArgumentParser()
@@ -71,7 +81,10 @@ if __name__ == "__main__":
     config = load_config(args.config_fname, return_dotmap=True)
 
     if config.gpu_id is not None:
-        os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
-            [str(i) for i in config.gpu_id]
-        )
+        if type(config.gpu_id) is list:
+            os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
+                [str(i) for i in config.gpu_id]
+            )
+        else:
+            os.environ["CUDA_VISIBLE_DEVICES"] = str(config.gpu_id)
     main(config)

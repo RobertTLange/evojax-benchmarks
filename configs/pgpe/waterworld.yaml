@@ -1,5 +1,6 @@
 es_name: "PGPE"
 problem_type: "waterworld"
+normalize: false
 es_config:
   pop_size: 256
   center_learning_rate: 0.014
