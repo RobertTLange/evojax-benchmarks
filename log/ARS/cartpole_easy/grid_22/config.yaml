@@ -1,0 +1,25 @@
+debug: 0
+es_config:
+  decay_stdev: 0.999
+  elite_ratio: 0.1
+  init_stdev: 0.1
+  limit_stdev: 0.01
+  optimizer: sgd
+  optimizer_config:
+    lrate_decay: 0.999
+    lrate_init: 0.0505
+    lrate_limit: 0.001
+    momentum: 0.0
+  pop_size: 100
+es_name: ARS
+gpu_id: 0
+hidden_size: 64
+log_interval: 50
+max_iter: 1000
+n_repeats: 16
+normalize: 0
+num_tests: 1
+problem_type: cartpole_easy
+search_eval_id: grid_22
+seed: 42
+test_interval: 100

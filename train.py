@@ -9,8 +9,17 @@ from mle_hyperopt.utils import save_yaml
 
 
 def main(config):
-    # Setup logging. - add id if in config (mle-search) else log to default
     config = DotMap(config)
+    # Set cuda device visibility
+    if config.gpu_id is not None:
+        if type(config.gpu_id) is list:
+            os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
+                [str(i) for i in config.gpu_id]
+            )
+        else:
+            os.environ["CUDA_VISIBLE_DEVICES"] = str(config.gpu_id)
+
+    # Setup logging. - add id if in config (mle-search) else log to default
     log_dir = f"./log/{config.es_name}/{config.problem_type}/"
     if "search_eval_id" in config.keys():
         log_dir += config.search_eval_id
@@ -79,12 +88,4 @@ if __name__ == "__main__":
     )
     args, _ = parser.parse_known_args()
     config = load_config(args.config_fname, return_dotmap=True)
-
-    if config.gpu_id is not None:
-        if type(config.gpu_id) is list:
-            os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(
-                [str(i) for i in config.gpu_id]
-            )
-        else:
-            os.environ["CUDA_VISIBLE_DEVICES"] = str(config.gpu_id)
     main(config)
