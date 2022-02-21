@@ -1,0 +1,24 @@
+debug: 0
+es_config:
+  decay_stdev: 0.999
+  init_stdev: 0.0775
+  limit_stdev: 0.01
+  optimizer: adam
+  optimizer_config:
+    lrate_decay: 0.999
+    lrate_init: 0.01625
+    lrate_limit: 0.001
+    momentum: 0.0
+  pop_size: 100
+es_name: OpenES
+gpu_id: 0
+hidden_size: 64
+log_interval: 50
+max_iter: 1000
+n_repeats: 16
+normalize: 0
+num_tests: 100
+problem_type: cartpole_hard
+search_eval_id: grid_16
+seed: 42
+test_interval: 100

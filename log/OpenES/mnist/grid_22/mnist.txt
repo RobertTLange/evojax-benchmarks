@@ -1,0 +1,93 @@
+mnist: 2022-02-21 15:12:53,746 [INFO] EvoJAX mnist
+mnist: 2022-02-21 15:12:53,749 [INFO] ==============================
+mnist: 2022-02-21 15:12:53,776 [INFO] ConvNetPolicy.num_params = 11274
+mnist: 2022-02-21 15:12:54,083 [INFO] Start to train for 2000 iterations.
+mnist: 2022-02-21 15:13:05,987 [INFO] Iter=100, size=100, max=-0.9663, avg=-1.1749, min=-1.7769, std=0.1370
+mnist: 2022-02-21 15:13:12,990 [INFO] Iter=200, size=100, max=-0.5839, avg=-0.7285, min=-1.1465, std=0.0909
+mnist: 2022-02-21 15:13:20,075 [INFO] Iter=300, size=100, max=-0.3992, avg=-0.4815, min=-0.8920, std=0.0803
+mnist: 2022-02-21 15:13:26,860 [INFO] Iter=400, size=100, max=-0.3292, avg=-0.4147, min=-0.5990, std=0.0497
+mnist: 2022-02-21 15:13:33,899 [INFO] Iter=500, size=100, max=-0.3220, avg=-0.4021, min=-0.5650, std=0.0465
+mnist: 2022-02-21 15:13:34,753 [INFO] [TEST] Iter=500, #tests=1, max=0.9140 avg=0.9140, min=0.9140, std=0.0000
+mnist: 2022-02-21 15:13:41,446 [INFO] Iter=600, size=100, max=-0.3545, avg=-0.4088, min=-0.5746, std=0.0357
+mnist: 2022-02-21 15:13:48,718 [INFO] Iter=700, size=100, max=-0.2344, avg=-0.2973, min=-0.3687, std=0.0304
+mnist: 2022-02-21 15:13:55,415 [INFO] Iter=800, size=100, max=-0.2789, avg=-0.3358, min=-0.4189, std=0.0298
+mnist: 2022-02-21 15:14:02,112 [INFO] Iter=900, size=100, max=-0.2521, avg=-0.2935, min=-0.3640, std=0.0220
+mnist: 2022-02-21 15:14:08,810 [INFO] Iter=1000, size=100, max=-0.2017, avg=-0.2491, min=-0.4220, std=0.0323
+mnist: 2022-02-21 15:14:08,872 [INFO] [TEST] Iter=1000, #tests=1, max=0.9318 avg=0.9318, min=0.9318, std=0.0000
+mnist: 2022-02-21 15:14:15,580 [INFO] Iter=1100, size=100, max=-0.1891, avg=-0.2272, min=-0.3018, std=0.0181
+mnist: 2022-02-21 15:14:22,288 [INFO] Iter=1200, size=100, max=-0.2331, avg=-0.2628, min=-0.3360, std=0.0185
+mnist: 2022-02-21 15:14:29,159 [INFO] Iter=1300, size=100, max=-0.2296, avg=-0.2623, min=-0.3131, std=0.0175
+mnist: 2022-02-21 15:14:36,409 [INFO] Iter=1400, size=100, max=-0.2224, avg=-0.2495, min=-0.3265, std=0.0180
+mnist: 2022-02-21 15:14:43,111 [INFO] Iter=1500, size=100, max=-0.1904, avg=-0.2116, min=-0.2531, std=0.0135
+mnist: 2022-02-21 15:14:43,305 [INFO] [TEST] Iter=1500, #tests=1, max=0.9339 avg=0.9339, min=0.9339, std=0.0000
+mnist: 2022-02-21 15:14:50,014 [INFO] Iter=1600, size=100, max=-0.2685, avg=-0.2912, min=-0.3345, std=0.0132
+mnist: 2022-02-21 15:14:56,725 [INFO] Iter=1700, size=100, max=-0.2350, avg=-0.2535, min=-0.2818, std=0.0098
+mnist: 2022-02-21 15:15:03,433 [INFO] Iter=1800, size=100, max=-0.1969, avg=-0.2085, min=-0.2355, std=0.0072
+mnist: 2022-02-21 15:15:10,139 [INFO] Iter=1900, size=100, max=-0.1754, avg=-0.1889, min=-0.2087, std=0.0066
+mnist: 2022-02-21 15:15:16,981 [INFO] [TEST] Iter=2000, #tests=1, max=0.9414, avg=0.9414, min=0.9414, std=0.0000
+mnist: 2022-02-21 15:15:17,543 [INFO] Training done, best_score=0.9414
+mnist: 2022-02-21 15:15:17,553 [INFO] Loaded model parameters from ./log/OpenES/mnist/grid_22.
+mnist: 2022-02-21 15:15:17,556 [INFO] Start to test the parameters.
+mnist: 2022-02-21 15:15:17,566 [INFO] [TEST] #tests=1, max=0.9414, avg=0.9414, min=0.9414, std=0.0000
+mnist: 2022-02-21 15:15:17,652 [INFO] EvoJAX mnist
+mnist: 2022-02-21 15:15:17,656 [INFO] ==============================
+mnist: 2022-02-21 15:15:17,707 [INFO] ConvNetPolicy.num_params = 11274
+mnist: 2022-02-21 15:15:18,041 [INFO] Start to train for 2000 iterations.
+mnist: 2022-02-21 15:15:29,867 [INFO] Iter=100, size=100, max=-1.1159, avg=-1.3915, min=-2.0762, std=0.2034
+mnist: 2022-02-21 15:15:36,768 [INFO] Iter=200, size=100, max=-0.9476, avg=-1.2070, min=-2.1151, std=0.2001
+mnist: 2022-02-21 15:15:43,430 [INFO] Iter=300, size=100, max=-0.7498, avg=-0.9889, min=-1.9891, std=0.2546
+mnist: 2022-02-21 15:15:51,191 [INFO] Iter=400, size=100, max=-0.6859, avg=-0.8398, min=-1.7542, std=0.1524
+mnist: 2022-02-21 15:15:57,846 [INFO] Iter=500, size=100, max=-0.6207, avg=-0.7580, min=-1.8292, std=0.1394
+mnist: 2022-02-21 15:15:58,687 [INFO] [TEST] Iter=500, #tests=1, max=0.8215 avg=0.8215, min=0.8215, std=0.0000
+mnist: 2022-02-21 15:16:05,342 [INFO] Iter=600, size=100, max=-0.6020, avg=-0.7247, min=-1.3001, std=0.1049
+mnist: 2022-02-21 15:16:11,999 [INFO] Iter=700, size=100, max=-0.4509, avg=-0.5382, min=-0.7566, std=0.0540
+mnist: 2022-02-21 15:16:18,658 [INFO] Iter=800, size=100, max=-0.4757, avg=-0.5814, min=-0.8697, std=0.0717
+mnist: 2022-02-21 15:16:25,320 [INFO] Iter=900, size=100, max=-0.5098, avg=-0.6203, min=-0.9448, std=0.0713
+mnist: 2022-02-21 15:16:31,987 [INFO] Iter=1000, size=100, max=-0.4401, avg=-0.5215, min=-1.2539, std=0.1027
+mnist: 2022-02-21 15:16:31,996 [INFO] [TEST] Iter=1000, #tests=1, max=0.8627 avg=0.8627, min=0.8627, std=0.0000
+mnist: 2022-02-21 15:16:38,680 [INFO] Iter=1100, size=100, max=-0.4332, avg=-0.5017, min=-0.6641, std=0.0378
+mnist: 2022-02-21 15:16:45,681 [INFO] Iter=1200, size=100, max=-0.4469, avg=-0.5023, min=-0.6026, std=0.0417
+mnist: 2022-02-21 15:16:52,463 [INFO] Iter=1300, size=100, max=-0.4522, avg=-0.5113, min=-0.7647, std=0.0448
+mnist: 2022-02-21 15:16:59,137 [INFO] Iter=1400, size=100, max=-0.3966, avg=-0.4514, min=-0.6827, std=0.0374
+mnist: 2022-02-21 15:17:05,805 [INFO] Iter=1500, size=100, max=-0.4265, avg=-0.4629, min=-0.6194, std=0.0336
+mnist: 2022-02-21 15:17:05,818 [INFO] [TEST] Iter=1500, #tests=1, max=0.8802 avg=0.8802, min=0.8802, std=0.0000
+mnist: 2022-02-21 15:17:12,491 [INFO] Iter=1600, size=100, max=-0.3949, avg=-0.4311, min=-0.5076, std=0.0234
+mnist: 2022-02-21 15:17:19,261 [INFO] Iter=1700, size=100, max=-0.4077, avg=-0.4345, min=-0.4768, std=0.0151
+mnist: 2022-02-21 15:17:26,301 [INFO] Iter=1800, size=100, max=-0.3331, avg=-0.3609, min=-0.7030, std=0.0375
+mnist: 2022-02-21 15:17:33,071 [INFO] Iter=1900, size=100, max=-0.3339, avg=-0.3649, min=-0.8101, std=0.0471
+mnist: 2022-02-21 15:17:39,721 [INFO] [TEST] Iter=2000, #tests=1, max=0.8923, avg=0.8923, min=0.8923, std=0.0000
+mnist: 2022-02-21 15:17:39,772 [INFO] Training done, best_score=0.8923
+mnist: 2022-02-21 15:17:39,781 [INFO] Loaded model parameters from ./log/OpenES/mnist/grid_23.
+mnist: 2022-02-21 15:17:39,783 [INFO] Start to test the parameters.
+mnist: 2022-02-21 15:17:39,794 [INFO] [TEST] #tests=1, max=0.8923, avg=0.8923, min=0.8923, std=0.0000
+mnist: 2022-02-21 15:17:39,863 [INFO] EvoJAX mnist
+mnist: 2022-02-21 15:17:39,866 [INFO] ==============================
+mnist: 2022-02-21 15:17:39,894 [INFO] ConvNetPolicy.num_params = 11274
+mnist: 2022-02-21 15:17:40,202 [INFO] Start to train for 2000 iterations.
+mnist: 2022-02-21 15:17:52,077 [INFO] Iter=100, size=100, max=-1.5344, avg=-1.7917, min=-3.5169, std=0.2737
+mnist: 2022-02-21 15:17:58,720 [INFO] Iter=200, size=100, max=-1.2453, avg=-1.5024, min=-2.1864, std=0.1952
+mnist: 2022-02-21 15:18:05,367 [INFO] Iter=300, size=100, max=-0.9176, avg=-1.2187, min=-2.4315, std=0.2418
+mnist: 2022-02-21 15:18:12,023 [INFO] Iter=400, size=100, max=-0.8259, avg=-1.0136, min=-2.4811, std=0.2183
+mnist: 2022-02-21 15:18:18,678 [INFO] Iter=500, size=100, max=-0.7039, avg=-0.8475, min=-1.4519, std=0.1265
+mnist: 2022-02-21 15:18:19,673 [INFO] [TEST] Iter=500, #tests=1, max=0.7812 avg=0.7812, min=0.7812, std=0.0000
+mnist: 2022-02-21 15:18:26,332 [INFO] Iter=600, size=100, max=-0.7239, avg=-0.8712, min=-1.6426, std=0.1380
+mnist: 2022-02-21 15:18:33,262 [INFO] Iter=700, size=100, max=-0.5762, avg=-0.7211, min=-1.8365, std=0.1820
+mnist: 2022-02-21 15:18:39,921 [INFO] Iter=800, size=100, max=-0.6278, avg=-0.7396, min=-1.1451, std=0.0938
+mnist: 2022-02-21 15:18:46,732 [INFO] Iter=900, size=100, max=-0.5595, avg=-0.6815, min=-1.0655, std=0.1001
+mnist: 2022-02-21 15:18:53,389 [INFO] Iter=1000, size=100, max=-0.4863, avg=-0.5844, min=-1.1569, std=0.1014
+mnist: 2022-02-21 15:18:53,700 [INFO] [TEST] Iter=1000, #tests=1, max=0.8468 avg=0.8468, min=0.8468, std=0.0000
+mnist: 2022-02-21 15:19:00,370 [INFO] Iter=1100, size=100, max=-0.5405, avg=-0.6240, min=-0.8973, std=0.0631
+mnist: 2022-02-21 15:19:07,049 [INFO] Iter=1200, size=100, max=-0.5322, avg=-0.6021, min=-0.7851, std=0.0518
+mnist: 2022-02-21 15:19:13,883 [INFO] Iter=1300, size=100, max=-0.5356, avg=-0.6060, min=-0.8580, std=0.0539
+mnist: 2022-02-21 15:19:20,797 [INFO] Iter=1400, size=100, max=-0.5324, avg=-0.5984, min=-0.9411, std=0.0683
+mnist: 2022-02-21 15:19:27,460 [INFO] Iter=1500, size=100, max=-0.5049, avg=-0.5637, min=-0.7137, std=0.0421
+mnist: 2022-02-21 15:19:27,541 [INFO] [TEST] Iter=1500, #tests=1, max=0.8536 avg=0.8536, min=0.8536, std=0.0000
+mnist: 2022-02-21 15:19:34,216 [INFO] Iter=1600, size=100, max=-0.5269, avg=-0.5876, min=-0.8508, std=0.0504
+mnist: 2022-02-21 15:19:40,915 [INFO] Iter=1700, size=100, max=-0.5219, avg=-0.5575, min=-0.9603, std=0.0506
+mnist: 2022-02-21 15:19:47,775 [INFO] Iter=1800, size=100, max=-0.4969, avg=-0.5323, min=-0.7847, std=0.0337
+mnist: 2022-02-21 15:19:54,597 [INFO] Iter=1900, size=100, max=-0.4581, avg=-0.4909, min=-0.6361, std=0.0280
+mnist: 2022-02-21 15:20:01,513 [INFO] [TEST] Iter=2000, #tests=1, max=0.8697, avg=0.8697, min=0.8697, std=0.0000
+mnist: 2022-02-21 15:20:01,523 [INFO] Training done, best_score=0.8697
+mnist: 2022-02-21 15:20:01,532 [INFO] Loaded model parameters from ./log/OpenES/mnist/grid_24.
+mnist: 2022-02-21 15:20:01,535 [INFO] Start to test the parameters.
+mnist: 2022-02-21 15:20:01,546 [INFO] [TEST] #tests=1, max=0.8697, avg=0.8697, min=0.8697, std=0.0000

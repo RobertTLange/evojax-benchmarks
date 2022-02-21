@@ -1,0 +1,26 @@
+batch_size: 1024
+debug: 0
+es_config:
+  decay_stdev: 0.999
+  init_stdev: 0.01
+  limit_stdev: 0.01
+  optimizer: adam
+  optimizer_config:
+    lrate_decay: 0.999
+    lrate_init: 0.05
+    lrate_limit: 0.001
+    momentum: 0.0
+  pop_size: 100
+es_name: OpenES
+gpu_id:
+- 0
+hidden_size: 100
+log_interval: 100
+max_iter: 2000
+n_repeats: 1
+normalize: 0
+num_tests: 1
+problem_type: mnist
+search_eval_id: grid_4
+seed: 42
+test_interval: 500

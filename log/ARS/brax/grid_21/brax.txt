@@ -1,0 +1,96 @@
+brax: 2022-02-21 06:04:46,084 [INFO] EvoJAX brax
+brax: 2022-02-21 06:04:46,090 [INFO] ==============================
+brax: 2022-02-21 06:04:46,245 [INFO] Start to train for 300 iterations.
+brax: 2022-02-21 06:08:01,983 [INFO] Iter=20, size=1024, max=976.9736, avg=656.8896, min=-26.3977, std=102.4109
+brax: 2022-02-21 06:10:57,235 [INFO] Iter=40, size=1024, max=937.4606, avg=480.7819, min=-600.3491, std=178.0541
+brax: 2022-02-21 06:13:52,297 [INFO] Iter=60, size=1024, max=1074.1113, avg=439.2138, min=-213.5880, std=202.0973
+brax: 2022-02-21 06:16:47,537 [INFO] Iter=80, size=1024, max=989.7344, avg=455.0173, min=-220.3649, std=207.0025
+brax: 2022-02-21 06:19:43,009 [INFO] Iter=100, size=1024, max=1079.7578, avg=597.1929, min=-163.4789, std=191.9655
+brax: 2022-02-21 06:19:55,615 [INFO] [TEST] Iter=100, #tests=128, max=1112.8621 avg=921.9538, min=701.0026, std=76.3225
+brax: 2022-02-21 06:22:51,563 [INFO] Iter=120, size=1024, max=1104.8444, avg=671.1699, min=-79.3530, std=203.0028
+brax: 2022-02-21 06:25:47,872 [INFO] Iter=140, size=1024, max=1304.9596, avg=773.2045, min=-39.8894, std=232.6451
+brax: 2022-02-21 06:28:44,595 [INFO] Iter=160, size=1024, max=1397.1145, avg=903.8524, min=112.2502, std=203.9489
+brax: 2022-02-21 06:31:40,529 [INFO] Iter=180, size=1024, max=1524.3026, avg=1002.6491, min=49.7847, std=213.8113
+brax: 2022-02-21 06:34:37,105 [INFO] Iter=200, size=1024, max=1547.6920, avg=1023.5197, min=-250.0860, std=265.6204
+brax: 2022-02-21 06:34:40,699 [INFO] [TEST] Iter=200, #tests=128, max=1866.4313 avg=1469.3379, min=20.2396, std=325.4710
+brax: 2022-02-21 06:37:35,841 [INFO] Iter=220, size=1024, max=1599.6000, avg=1098.4602, min=-14.1777, std=257.0455
+brax: 2022-02-21 06:40:32,861 [INFO] Iter=240, size=1024, max=1756.3323, avg=1130.7218, min=-155.7341, std=273.9381
+brax: 2022-02-21 06:43:29,831 [INFO] Iter=260, size=1024, max=1745.4312, avg=1172.3055, min=-129.3501, std=281.0724
+brax: 2022-02-21 06:46:26,491 [INFO] Iter=280, size=1024, max=1864.1821, avg=1240.1941, min=-225.9227, std=291.0085
+brax: 2022-02-21 06:49:15,128 [INFO] [TEST] Iter=300, #tests=128, max=2141.4290, avg=1769.8279, min=-445.0946, std=469.2942
+brax: 2022-02-21 06:49:16,608 [INFO] Training done, best_score=1769.8279
+brax: 2022-02-21 06:49:16,621 [INFO] Loaded model parameters from ./log/ARS/brax/grid_21.
+brax: 2022-02-21 06:49:16,628 [INFO] Start to test the parameters.
+brax: 2022-02-21 06:49:18,628 [INFO] [TEST] #tests=128, max=2231.8230, avg=1785.3508, min=-12.7605, std=416.9514
+brax: 2022-02-21 06:49:18,665 [INFO] EvoJAX brax
+brax: 2022-02-21 06:49:18,672 [INFO] ==============================
+brax: 2022-02-21 06:49:18,828 [INFO] Start to train for 300 iterations.
+brax: 2022-02-21 06:52:31,515 [INFO] Iter=20, size=1024, max=459.0956, avg=88.7690, min=-679.3444, std=119.6003
+brax: 2022-02-21 06:55:27,662 [INFO] Iter=40, size=1024, max=348.7065, avg=-5.4806, min=-389.9919, std=112.5233
+brax: 2022-02-21 06:58:23,795 [INFO] Iter=60, size=1024, max=403.9720, avg=-1.8037, min=-556.4543, std=142.1232
+brax: 2022-02-21 07:01:19,434 [INFO] Iter=80, size=1024, max=510.6756, avg=47.7669, min=-520.2665, std=155.1034
+brax: 2022-02-21 07:04:15,451 [INFO] Iter=100, size=1024, max=639.0912, avg=139.1571, min=-410.7003, std=172.3159
+brax: 2022-02-21 07:04:28,061 [INFO] [TEST] Iter=100, #tests=128, max=765.9498 avg=725.2328, min=659.6877, std=20.4631
+brax: 2022-02-21 07:07:23,951 [INFO] Iter=120, size=1024, max=711.8890, avg=165.6727, min=-420.2496, std=187.5449
+brax: 2022-02-21 07:10:19,378 [INFO] Iter=140, size=1024, max=810.3346, avg=200.2463, min=-488.3040, std=206.5271
+brax: 2022-02-21 07:13:16,169 [INFO] Iter=160, size=1024, max=770.0290, avg=189.0562, min=-498.4100, std=206.7823
+brax: 2022-02-21 07:16:12,589 [INFO] Iter=180, size=1024, max=760.4490, avg=246.0626, min=-601.0795, std=214.4899
+brax: 2022-02-21 07:19:07,868 [INFO] Iter=200, size=1024, max=902.2014, avg=289.2992, min=-546.4946, std=224.8643
+brax: 2022-02-21 07:19:10,613 [INFO] [TEST] Iter=200, #tests=128, max=752.7645 avg=722.6002, min=683.4092, std=14.3611
+brax: 2022-02-21 07:22:04,583 [INFO] Iter=220, size=1024, max=902.0639, avg=335.0109, min=-564.5816, std=229.4149
+brax: 2022-02-21 07:24:59,443 [INFO] Iter=240, size=1024, max=933.9371, avg=299.4752, min=-651.8510, std=265.5395
+brax: 2022-02-21 07:27:53,618 [INFO] Iter=260, size=1024, max=930.9638, avg=363.4431, min=-668.6179, std=264.9871
+brax: 2022-02-21 07:30:47,911 [INFO] Iter=280, size=1024, max=1092.0167, avg=388.9734, min=-484.9158, std=266.0006
+brax: 2022-02-21 07:33:38,060 [INFO] [TEST] Iter=300, #tests=128, max=1462.9813, avg=1031.1920, min=-396.8857, std=336.2248
+brax: 2022-02-21 07:33:38,359 [INFO] Training done, best_score=1031.1920
+brax: 2022-02-21 07:33:38,372 [INFO] Loaded model parameters from ./log/ARS/brax/grid_22.
+brax: 2022-02-21 07:33:38,379 [INFO] Start to test the parameters.
+brax: 2022-02-21 07:33:40,379 [INFO] [TEST] #tests=128, max=1432.5496, avg=1028.6207, min=-252.1514, std=293.9110
+brax: 2022-02-21 07:33:40,427 [INFO] EvoJAX brax
+brax: 2022-02-21 07:33:40,434 [INFO] ==============================
+brax: 2022-02-21 07:33:40,597 [INFO] Start to train for 300 iterations.
+brax: 2022-02-21 07:36:53,395 [INFO] Iter=20, size=1024, max=-149.4047, avg=-392.6891, min=-718.7756, std=81.5694
+brax: 2022-02-21 07:39:48,540 [INFO] Iter=40, size=1024, max=-77.1645, avg=-285.7202, min=-697.5580, std=89.3164
+brax: 2022-02-21 07:42:43,587 [INFO] Iter=60, size=1024, max=-36.6794, avg=-126.5804, min=-538.0394, std=73.6081
+brax: 2022-02-21 07:45:38,348 [INFO] Iter=80, size=1024, max=-13.6124, avg=-80.7351, min=-440.2232, std=63.3756
+brax: 2022-02-21 07:48:33,910 [INFO] Iter=100, size=1024, max=-13.1570, avg=-51.3577, min=-330.0804, std=48.4028
+brax: 2022-02-21 07:48:48,789 [INFO] [TEST] Iter=100, #tests=128, max=889.6866 avg=761.4644, min=606.7152, std=76.7189
+brax: 2022-02-21 07:51:43,226 [INFO] Iter=120, size=1024, max=-11.1297, avg=-29.8435, min=-302.6899, std=31.7271
+brax: 2022-02-21 07:54:37,636 [INFO] Iter=140, size=1024, max=-9.3779, avg=-14.4042, min=-180.5375, std=11.3831
+brax: 2022-02-21 07:57:32,067 [INFO] Iter=160, size=1024, max=-8.7687, avg=-17.2312, min=-249.3811, std=18.4724
+brax: 2022-02-21 08:00:26,575 [INFO] Iter=180, size=1024, max=-7.1295, avg=-13.4866, min=-182.8933, std=11.3830
+brax: 2022-02-21 08:03:21,011 [INFO] Iter=200, size=1024, max=-8.2939, avg=-15.3102, min=-190.8154, std=16.8512
+brax: 2022-02-21 08:03:23,012 [INFO] [TEST] Iter=200, #tests=128, max=880.1262 avg=760.7461, min=609.9632, std=73.4540
+brax: 2022-02-21 08:06:18,169 [INFO] Iter=220, size=1024, max=-7.8750, avg=-12.7258, min=-181.7830, std=12.6813
+brax: 2022-02-21 08:09:13,507 [INFO] Iter=240, size=1024, max=-6.8498, avg=-13.9710, min=-178.8714, std=15.6660
+brax: 2022-02-21 08:12:08,827 [INFO] Iter=260, size=1024, max=-6.5130, avg=-14.7887, min=-349.2126, std=25.5532
+brax: 2022-02-21 08:15:04,112 [INFO] Iter=280, size=1024, max=-5.7202, avg=-15.0382, min=-190.4420, std=20.8784
+brax: 2022-02-21 08:17:52,767 [INFO] [TEST] Iter=300, #tests=128, max=893.4809, avg=749.3464, min=588.9315, std=76.5922
+brax: 2022-02-21 08:17:52,858 [INFO] Training done, best_score=761.4644
+brax: 2022-02-21 08:17:52,915 [INFO] Loaded model parameters from ./log/ARS/brax/grid_23.
+brax: 2022-02-21 08:17:52,922 [INFO] Start to test the parameters.
+brax: 2022-02-21 08:17:54,875 [INFO] [TEST] #tests=128, max=907.1722, avg=778.6905, min=624.6039, std=67.8876
+brax: 2022-02-21 08:17:54,906 [INFO] EvoJAX brax
+brax: 2022-02-21 08:17:54,914 [INFO] ==============================
+brax: 2022-02-21 08:17:55,068 [INFO] Start to train for 300 iterations.
+brax: 2022-02-21 08:21:08,323 [INFO] Iter=20, size=1024, max=-67.2855, avg=-251.7968, min=-685.6152, std=100.3271
+brax: 2022-02-21 08:24:03,613 [INFO] Iter=40, size=1024, max=-40.8025, avg=-141.6123, min=-673.1360, std=80.2449
+brax: 2022-02-21 08:26:58,832 [INFO] Iter=60, size=1024, max=-37.0280, avg=-103.3665, min=-496.1573, std=58.7643
+brax: 2022-02-21 08:29:55,107 [INFO] Iter=80, size=1024, max=-39.5398, avg=-96.8285, min=-463.6996, std=57.9151
+brax: 2022-02-21 08:32:50,593 [INFO] Iter=100, size=1024, max=-32.2076, avg=-82.7885, min=-375.7226, std=52.1701
+brax: 2022-02-21 08:33:02,020 [INFO] [TEST] Iter=100, #tests=128, max=977.9064 avg=974.6704, min=971.7997, std=1.2685
+brax: 2022-02-21 08:35:57,855 [INFO] Iter=120, size=1024, max=-16.0857, avg=-48.4791, min=-352.5281, std=39.2891
+brax: 2022-02-21 08:38:53,555 [INFO] Iter=140, size=1024, max=-13.7387, avg=-41.0351, min=-349.5478, std=40.7660
+brax: 2022-02-21 08:41:49,249 [INFO] Iter=160, size=1024, max=-14.0975, avg=-44.3001, min=-347.0951, std=43.7015
+brax: 2022-02-21 08:44:45,425 [INFO] Iter=180, size=1024, max=-11.1569, avg=-35.1514, min=-360.6604, std=40.8712
+brax: 2022-02-21 08:47:41,141 [INFO] Iter=200, size=1024, max=-10.0237, avg=-24.0742, min=-329.0659, std=29.7214
+brax: 2022-02-21 08:47:43,439 [INFO] [TEST] Iter=200, #tests=128, max=976.7180 avg=974.4611, min=972.0573, std=1.0351
+brax: 2022-02-21 08:50:38,463 [INFO] Iter=220, size=1024, max=-9.3110, avg=-13.0831, min=-173.4754, std=13.1925
+brax: 2022-02-21 08:53:33,490 [INFO] Iter=240, size=1024, max=-9.2493, avg=-11.6374, min=-182.8754, std=10.1727
+brax: 2022-02-21 08:56:28,880 [INFO] Iter=260, size=1024, max=-9.6038, avg=-17.8576, min=-187.0439, std=19.5087
+brax: 2022-02-21 08:59:24,198 [INFO] Iter=280, size=1024, max=-9.1718, avg=-17.3075, min=-189.3687, std=21.1064
+brax: 2022-02-21 09:02:12,767 [INFO] [TEST] Iter=300, #tests=128, max=977.0073, avg=974.3448, min=971.9235, std=1.1141
+brax: 2022-02-21 09:02:13,024 [INFO] Training done, best_score=974.6704
+brax: 2022-02-21 09:02:13,038 [INFO] Loaded model parameters from ./log/ARS/brax/grid_24.
+brax: 2022-02-21 09:02:13,044 [INFO] Start to test the parameters.
+brax: 2022-02-21 09:02:15,059 [INFO] [TEST] #tests=128, max=977.6616, avg=974.5211, min=971.9327, std=1.2112

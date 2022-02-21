@@ -1,0 +1,36 @@
+cartpole_easy: 2022-02-21 14:54:48,675 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:54:48,680 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:54:48,774 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:54:54,111 [INFO] Iter=50, size=100, max=622.9476, avg=511.4692, min=121.4845, std=68.1552
+cartpole_easy: 2022-02-21 14:54:58,384 [INFO] Iter=100, size=100, max=708.8311, avg=604.6204, min=479.5027, std=42.7744
+cartpole_easy: 2022-02-21 14:54:59,019 [INFO] [TEST] Iter=100, #tests=100, max=693.6121 avg=664.1190, min=642.5703, std=8.9756
+cartpole_easy: 2022-02-21 14:55:03,317 [INFO] Iter=150, size=100, max=731.0438, avg=657.4426, min=525.8847, std=44.5554
+cartpole_easy: 2022-02-21 14:55:07,598 [INFO] Iter=200, size=100, max=766.8145, avg=688.8441, min=535.2222, std=46.2101
+cartpole_easy: 2022-02-21 14:55:07,659 [INFO] [TEST] Iter=200, #tests=100, max=768.5042 avg=748.5067, min=706.3826, std=6.7949
+cartpole_easy: 2022-02-21 14:55:11,941 [INFO] Iter=250, size=100, max=773.7117, avg=705.0356, min=561.4628, std=44.9529
+cartpole_easy: 2022-02-21 14:55:16,213 [INFO] Iter=300, size=100, max=782.2168, avg=737.5012, min=582.4970, std=35.7898
+cartpole_easy: 2022-02-21 14:55:16,285 [INFO] [TEST] Iter=300, #tests=100, max=803.6655 avg=774.7072, min=737.6393, std=13.5531
+cartpole_easy: 2022-02-21 14:55:20,555 [INFO] Iter=350, size=100, max=809.2207, avg=760.5994, min=544.8411, std=44.1813
+cartpole_easy: 2022-02-21 14:55:24,824 [INFO] Iter=400, size=100, max=913.9670, avg=884.6731, min=177.1847, std=74.4993
+cartpole_easy: 2022-02-21 14:55:24,885 [INFO] [TEST] Iter=400, #tests=100, max=924.8896 avg=911.9148, min=880.3477, std=6.0059
+cartpole_easy: 2022-02-21 14:55:29,149 [INFO] Iter=450, size=100, max=917.7336, avg=906.7018, min=735.0418, std=23.4851
+cartpole_easy: 2022-02-21 14:55:33,409 [INFO] Iter=500, size=100, max=923.5665, avg=906.1736, min=529.9838, std=45.2197
+cartpole_easy: 2022-02-21 14:55:33,481 [INFO] [TEST] Iter=500, #tests=100, max=933.1146 avg=922.8347, min=910.1309, std=4.8877
+cartpole_easy: 2022-02-21 14:55:37,742 [INFO] Iter=550, size=100, max=925.0958, avg=888.2336, min=370.4890, std=103.6071
+cartpole_easy: 2022-02-21 14:55:42,009 [INFO] Iter=600, size=100, max=927.9866, avg=899.4371, min=609.2392, std=60.0284
+cartpole_easy: 2022-02-21 14:55:42,072 [INFO] [TEST] Iter=600, #tests=100, max=938.9055 avg=927.6334, min=914.7358, std=4.7711
+cartpole_easy: 2022-02-21 14:55:46,351 [INFO] Iter=650, size=100, max=928.9804, avg=851.3129, min=305.0255, std=145.7473
+cartpole_easy: 2022-02-21 14:55:50,635 [INFO] Iter=700, size=100, max=931.9816, avg=865.3469, min=163.0193, std=141.0297
+cartpole_easy: 2022-02-21 14:55:50,707 [INFO] [TEST] Iter=700, #tests=100, max=944.6246 avg=931.4387, min=911.7338, std=4.4117
+cartpole_easy: 2022-02-21 14:55:54,974 [INFO] Iter=750, size=100, max=933.2066, avg=869.2629, min=181.7172, std=127.0775
+cartpole_easy: 2022-02-21 14:55:59,234 [INFO] Iter=800, size=100, max=933.6909, avg=846.0183, min=128.5788, std=193.5348
+cartpole_easy: 2022-02-21 14:55:59,294 [INFO] [TEST] Iter=800, #tests=100, max=943.9537 avg=933.8028, min=900.5819, std=5.9077
+cartpole_easy: 2022-02-21 14:56:03,555 [INFO] Iter=850, size=100, max=936.0451, avg=889.9734, min=98.5774, std=143.5741
+cartpole_easy: 2022-02-21 14:56:07,877 [INFO] Iter=900, size=100, max=934.5693, avg=904.8175, min=279.7542, std=100.6612
+cartpole_easy: 2022-02-21 14:56:08,108 [INFO] [TEST] Iter=900, #tests=100, max=947.7560 avg=934.7623, min=916.8943, std=5.0924
+cartpole_easy: 2022-02-21 14:56:12,382 [INFO] Iter=950, size=100, max=936.2467, avg=904.8102, min=604.7443, std=59.1704
+cartpole_easy: 2022-02-21 14:56:16,628 [INFO] [TEST] Iter=1000, #tests=100, max=947.6520, avg=935.9058, min=922.3348, std=4.6777
+cartpole_easy: 2022-02-21 14:56:16,640 [INFO] Training done, best_score=935.9058
+cartpole_easy: 2022-02-21 14:56:16,652 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_24.
+cartpole_easy: 2022-02-21 14:56:16,658 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:56:16,727 [INFO] [TEST] #tests=100, max=948.5518, avg=936.6827, min=918.5874, std=4.6219

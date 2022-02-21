@@ -36,17 +36,37 @@ This will sequentially execute 25 ARS-MNIST evolution runs for a grid of differe
 
 ## Benchmark Results
 
+### OpenES
+
+
+|   | Benchmarks | Parameters | Results (Avg) |
+|---|---|---|---|
+CartPole (easy) | 	900 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/OpenES/cartpole_easy.yaml)| 929.4153 |
+CartPole (hard)	| 600 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/OpenES/cartpole_hard.yaml)| 604.6940 |
+MNIST	| 90.0 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/OpenES/mnist.yaml)| 0.9669 |
+Brax Ant |	3000 (max_iter=1200) |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/OpenES/brax_ant.yaml)| 6726.2100 |
+Waterworld	| 6 (max_iter=500)	 | - | - |
+Waterworld (MA)	| 2 (max_iter=2000)	| - | - |
+
+
+*Note*: For the brax environment I reduced the population size from 1024 to 256 and increased the search iterations by the same factor (300 to 1200) in the main run. For the grid search I used a population size of 256 but with 500 iterations.
+
+
+| Cartpole-Easy  | Cartpole-Hard | MNIST |
+|---|---|---|
+![](figures/OpenES/cartpole_easy.png) | ![](figures/OpenES/cartpole_hard.png) | ![](figures/OpenES/mnist.png) |
+
 ### Augmented Random Search
 
 
 |   | Benchmarks | Parameters | Results |
 |---|---|---|---|
-CartPole (easy) | 	900 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/cartpole_easy.yaml)| 902.107 |
-CartPole (hard)	| 600 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/cartpole_hard.yaml)| 666.6442 |
-Waterworld	| 6 (max_iter=500)	 |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/waterworld.yaml)| 6.1300 |
-Waterworld (MA)	| 2 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/waterworld_ma.yaml)| 1.4831 |
-Brax Ant |	3000 (max_iter=300) |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/brax_ant.yaml)| 3298.9746 |
-MNIST	| 90.0 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ars/mnist.yaml)| 0.9610 |
+CartPole (easy) | 	900 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ARS/cartpole_easy.yaml)| 902.107 |
+CartPole (hard)	| 600 (max_iter=1000)|[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ARS/cartpole_hard.yaml)| 666.6442 |
+Waterworld	| 6 (max_iter=500)	 |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ARS/waterworld.yaml)| 6.1300 |
+Waterworld (MA)	| 2 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ARS/waterworld_ma.yaml)| 1.4831 |
+Brax Ant |	3000 (max_iter=300) |[Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ARS/brax_ant.yaml)| 3298.9746 |
+MNIST	| 90.0 (max_iter=2000)	| [Link](https://github.com/RobertTLange/evojax-benchmarks/blob/main/configs/ARS/mnist.yaml)| 0.9610 |
 
 
 | Cartpole-Easy  | Cartpole-Hard | MNIST |

@@ -1,0 +1,324 @@
+cartpole_easy: 2022-02-21 14:42:57,260 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:42:57,264 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:42:57,354 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:43:02,697 [INFO] Iter=50, size=100, max=535.5115, avg=196.8438, min=2.6510, std=135.5439
+cartpole_easy: 2022-02-21 14:43:06,957 [INFO] Iter=100, size=100, max=608.8674, avg=361.7397, min=14.1178, std=170.2003
+cartpole_easy: 2022-02-21 14:43:07,561 [INFO] [TEST] Iter=100, #tests=100, max=708.8663 avg=568.9083, min=478.0045, std=37.2563
+cartpole_easy: 2022-02-21 14:43:11,827 [INFO] Iter=150, size=100, max=631.6461, avg=512.8594, min=163.0669, std=88.1608
+cartpole_easy: 2022-02-21 14:43:16,093 [INFO] Iter=200, size=100, max=679.5270, avg=592.6085, min=397.1678, std=50.2655
+cartpole_easy: 2022-02-21 14:43:16,151 [INFO] [TEST] Iter=200, #tests=100, max=671.8324 avg=645.6219, min=621.3343, std=6.7619
+cartpole_easy: 2022-02-21 14:43:20,423 [INFO] Iter=250, size=100, max=704.7743, avg=613.6688, min=399.3679, std=53.0843
+cartpole_easy: 2022-02-21 14:43:24,689 [INFO] Iter=300, size=100, max=710.7132, avg=641.5223, min=499.5282, std=40.0267
+cartpole_easy: 2022-02-21 14:43:24,747 [INFO] [TEST] Iter=300, #tests=100, max=746.7850 avg=695.1094, min=654.1450, std=18.8589
+cartpole_easy: 2022-02-21 14:43:29,014 [INFO] Iter=350, size=100, max=713.9759, avg=649.4610, min=538.6554, std=41.4134
+cartpole_easy: 2022-02-21 14:43:33,272 [INFO] Iter=400, size=100, max=741.1187, avg=671.9218, min=535.6985, std=35.6465
+cartpole_easy: 2022-02-21 14:43:33,342 [INFO] [TEST] Iter=400, #tests=100, max=741.9729 avg=720.5382, min=682.2954, std=13.3481
+cartpole_easy: 2022-02-21 14:43:37,612 [INFO] Iter=450, size=100, max=735.2557, avg=678.5373, min=571.0044, std=35.8081
+cartpole_easy: 2022-02-21 14:43:41,878 [INFO] Iter=500, size=100, max=738.9748, avg=686.0933, min=554.6978, std=36.3766
+cartpole_easy: 2022-02-21 14:43:41,936 [INFO] [TEST] Iter=500, #tests=100, max=743.5388 avg=730.2877, min=701.8007, std=5.9343
+cartpole_easy: 2022-02-21 14:43:46,195 [INFO] Iter=550, size=100, max=760.1293, avg=689.9052, min=605.9177, std=32.9572
+cartpole_easy: 2022-02-21 14:43:50,456 [INFO] Iter=600, size=100, max=756.3719, avg=699.7504, min=555.0344, std=38.9813
+cartpole_easy: 2022-02-21 14:43:50,517 [INFO] [TEST] Iter=600, #tests=100, max=800.5001 avg=738.7101, min=693.3118, std=16.6653
+cartpole_easy: 2022-02-21 14:43:54,790 [INFO] Iter=650, size=100, max=766.4451, avg=705.2102, min=641.8983, std=27.2687
+cartpole_easy: 2022-02-21 14:43:59,054 [INFO] Iter=700, size=100, max=767.6850, avg=714.4579, min=638.0787, std=27.8435
+cartpole_easy: 2022-02-21 14:43:59,113 [INFO] [TEST] Iter=700, #tests=100, max=805.7983 avg=753.7798, min=707.2406, std=18.8130
+cartpole_easy: 2022-02-21 14:44:03,374 [INFO] Iter=750, size=100, max=770.4128, avg=717.8990, min=648.3345, std=26.0005
+cartpole_easy: 2022-02-21 14:44:07,793 [INFO] Iter=800, size=100, max=776.6459, avg=730.8345, min=649.3572, std=25.5364
+cartpole_easy: 2022-02-21 14:44:07,850 [INFO] [TEST] Iter=800, #tests=100, max=804.5074 avg=752.7225, min=699.9508, std=14.7615
+cartpole_easy: 2022-02-21 14:44:12,105 [INFO] Iter=850, size=100, max=764.2068, avg=721.3244, min=659.7445, std=23.7281
+cartpole_easy: 2022-02-21 14:44:16,484 [INFO] Iter=900, size=100, max=783.7793, avg=738.2419, min=649.4437, std=24.2974
+cartpole_easy: 2022-02-21 14:44:16,556 [INFO] [TEST] Iter=900, #tests=100, max=812.9651 avg=752.8790, min=733.7855, std=13.7630
+cartpole_easy: 2022-02-21 14:44:20,819 [INFO] Iter=950, size=100, max=783.2863, avg=736.8901, min=655.9022, std=24.7421
+cartpole_easy: 2022-02-21 14:44:25,066 [INFO] [TEST] Iter=1000, #tests=100, max=823.5865, avg=784.3568, min=751.4681, std=14.2263
+cartpole_easy: 2022-02-21 14:44:25,075 [INFO] Training done, best_score=784.3568
+cartpole_easy: 2022-02-21 14:44:25,084 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_16.
+cartpole_easy: 2022-02-21 14:44:25,087 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:44:25,156 [INFO] [TEST] #tests=100, max=812.4730, avg=784.6387, min=737.6602, std=14.7397
+cartpole_easy: 2022-02-21 14:44:25,186 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:44:25,190 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:44:25,298 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:44:30,655 [INFO] Iter=50, size=100, max=620.2065, avg=398.2256, min=66.1155, std=131.1691
+cartpole_easy: 2022-02-21 14:44:35,026 [INFO] Iter=100, size=100, max=639.2943, avg=536.0416, min=296.2468, std=56.3108
+cartpole_easy: 2022-02-21 14:44:35,700 [INFO] [TEST] Iter=100, #tests=100, max=607.4066 avg=591.3364, min=568.5156, std=10.7703
+cartpole_easy: 2022-02-21 14:44:39,974 [INFO] Iter=150, size=100, max=701.1038, avg=592.0335, min=246.7592, std=67.0531
+cartpole_easy: 2022-02-21 14:44:44,248 [INFO] Iter=200, size=100, max=729.4916, avg=649.5082, min=543.5566, std=37.3569
+cartpole_easy: 2022-02-21 14:44:44,306 [INFO] [TEST] Iter=200, #tests=100, max=765.4446 avg=692.5336, min=662.6616, std=16.7223
+cartpole_easy: 2022-02-21 14:44:48,574 [INFO] Iter=250, size=100, max=734.0336, avg=674.9514, min=518.5089, std=40.2210
+cartpole_easy: 2022-02-21 14:44:52,844 [INFO] Iter=300, size=100, max=747.3865, avg=685.0961, min=573.7288, std=37.2090
+cartpole_easy: 2022-02-21 14:44:52,914 [INFO] [TEST] Iter=300, #tests=100, max=778.5944 avg=735.9820, min=695.3340, std=15.0456
+cartpole_easy: 2022-02-21 14:44:57,187 [INFO] Iter=350, size=100, max=757.8768, avg=703.1866, min=586.8182, std=32.2554
+cartpole_easy: 2022-02-21 14:45:01,455 [INFO] Iter=400, size=100, max=765.9179, avg=712.7001, min=602.6763, std=29.5168
+cartpole_easy: 2022-02-21 14:45:01,513 [INFO] [TEST] Iter=400, #tests=100, max=783.3788 avg=748.0250, min=722.3032, std=10.7774
+cartpole_easy: 2022-02-21 14:45:05,789 [INFO] Iter=450, size=100, max=773.8254, avg=721.9696, min=602.7094, std=34.6730
+cartpole_easy: 2022-02-21 14:45:10,169 [INFO] Iter=500, size=100, max=785.7845, avg=746.1526, min=639.7928, std=27.3092
+cartpole_easy: 2022-02-21 14:45:10,227 [INFO] [TEST] Iter=500, #tests=100, max=813.4444 avg=778.4698, min=733.9642, std=17.3004
+cartpole_easy: 2022-02-21 14:45:14,525 [INFO] Iter=550, size=100, max=797.9888, avg=754.0944, min=682.9449, std=27.7180
+cartpole_easy: 2022-02-21 14:45:18,814 [INFO] Iter=600, size=100, max=818.8350, avg=774.9261, min=705.9613, std=23.6236
+cartpole_easy: 2022-02-21 14:45:18,883 [INFO] [TEST] Iter=600, #tests=100, max=837.8286 avg=821.2164, min=794.8531, std=11.9055
+cartpole_easy: 2022-02-21 14:45:23,178 [INFO] Iter=650, size=100, max=830.3956, avg=790.8259, min=727.0529, std=22.8068
+cartpole_easy: 2022-02-21 14:45:27,454 [INFO] Iter=700, size=100, max=839.0923, avg=812.1627, min=730.1656, std=21.3193
+cartpole_easy: 2022-02-21 14:45:27,525 [INFO] [TEST] Iter=700, #tests=100, max=844.3818 avg=833.5827, min=820.3363, std=4.4654
+cartpole_easy: 2022-02-21 14:45:31,815 [INFO] Iter=750, size=100, max=843.8628, avg=823.1831, min=754.7165, std=19.2523
+cartpole_easy: 2022-02-21 14:45:36,089 [INFO] Iter=800, size=100, max=846.1624, avg=834.0863, min=720.2487, std=17.8370
+cartpole_easy: 2022-02-21 14:45:36,146 [INFO] [TEST] Iter=800, #tests=100, max=855.6854 avg=845.5344, min=827.9786, std=5.4196
+cartpole_easy: 2022-02-21 14:45:40,422 [INFO] Iter=850, size=100, max=853.2263, avg=841.2484, min=794.0295, std=13.2457
+cartpole_easy: 2022-02-21 14:45:44,703 [INFO] Iter=900, size=100, max=853.1735, avg=845.3141, min=777.0125, std=11.6671
+cartpole_easy: 2022-02-21 14:45:44,776 [INFO] [TEST] Iter=900, #tests=100, max=865.6994 avg=853.1918, min=843.5982, std=4.4138
+cartpole_easy: 2022-02-21 14:45:49,048 [INFO] Iter=950, size=100, max=873.0693, avg=842.8068, min=685.4800, std=23.5293
+cartpole_easy: 2022-02-21 14:45:53,278 [INFO] [TEST] Iter=1000, #tests=100, max=868.7330, avg=857.3865, min=847.6936, std=4.0862
+cartpole_easy: 2022-02-21 14:45:53,526 [INFO] Training done, best_score=857.3865
+cartpole_easy: 2022-02-21 14:45:53,537 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_17.
+cartpole_easy: 2022-02-21 14:45:53,541 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:45:53,615 [INFO] [TEST] #tests=100, max=868.7104, avg=857.8716, min=848.2795, std=4.0219
+cartpole_easy: 2022-02-21 14:45:53,642 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:45:53,647 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:45:53,769 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:45:59,113 [INFO] Iter=50, size=100, max=621.7127, avg=478.7802, min=106.5772, std=112.4120
+cartpole_easy: 2022-02-21 14:46:03,617 [INFO] Iter=100, size=100, max=710.5469, avg=605.7168, min=435.8490, std=54.5346
+cartpole_easy: 2022-02-21 14:46:04,230 [INFO] [TEST] Iter=100, #tests=100, max=689.4905 avg=665.5668, min=649.1523, std=7.3208
+cartpole_easy: 2022-02-21 14:46:08,504 [INFO] Iter=150, size=100, max=733.9324, avg=648.5159, min=511.2428, std=47.9136
+cartpole_easy: 2022-02-21 14:46:12,774 [INFO] Iter=200, size=100, max=740.4808, avg=687.4169, min=491.0807, std=40.1405
+cartpole_easy: 2022-02-21 14:46:12,844 [INFO] [TEST] Iter=200, #tests=100, max=770.9269 avg=724.6403, min=694.4968, std=16.9497
+cartpole_easy: 2022-02-21 14:46:17,106 [INFO] Iter=250, size=100, max=744.7904, avg=698.6623, min=572.4117, std=39.8514
+cartpole_easy: 2022-02-21 14:46:21,370 [INFO] Iter=300, size=100, max=772.0677, avg=723.5242, min=639.4462, std=24.6082
+cartpole_easy: 2022-02-21 14:46:21,429 [INFO] [TEST] Iter=300, #tests=100, max=785.2510 avg=754.1111, min=723.2449, std=15.1680
+cartpole_easy: 2022-02-21 14:46:25,686 [INFO] Iter=350, size=100, max=779.2891, avg=731.0212, min=623.1782, std=33.1029
+cartpole_easy: 2022-02-21 14:46:29,941 [INFO] Iter=400, size=100, max=789.0965, avg=742.9294, min=668.4728, std=23.3818
+cartpole_easy: 2022-02-21 14:46:30,511 [INFO] [TEST] Iter=400, #tests=100, max=828.9930 avg=775.7911, min=739.2350, std=18.9004
+cartpole_easy: 2022-02-21 14:46:34,774 [INFO] Iter=450, size=100, max=816.6917, avg=767.9903, min=667.8372, std=29.8197
+cartpole_easy: 2022-02-21 14:46:39,035 [INFO] Iter=500, size=100, max=826.3817, avg=777.2657, min=648.6797, std=37.1785
+cartpole_easy: 2022-02-21 14:46:39,168 [INFO] [TEST] Iter=500, #tests=100, max=835.8882 avg=819.8912, min=756.5836, std=13.6608
+cartpole_easy: 2022-02-21 14:46:43,440 [INFO] Iter=550, size=100, max=843.0542, avg=794.4285, min=645.9960, std=41.2352
+cartpole_easy: 2022-02-21 14:46:47,734 [INFO] Iter=600, size=100, max=842.9863, avg=813.7826, min=705.1487, std=30.1996
+cartpole_easy: 2022-02-21 14:46:47,793 [INFO] [TEST] Iter=600, #tests=100, max=855.9050 avg=843.4827, min=830.2820, std=4.0972
+cartpole_easy: 2022-02-21 14:46:52,051 [INFO] Iter=650, size=100, max=909.4468, avg=886.4978, min=511.5157, std=46.1100
+cartpole_easy: 2022-02-21 14:46:56,306 [INFO] Iter=700, size=100, max=919.7489, avg=915.7734, min=883.4885, std=5.8537
+cartpole_easy: 2022-02-21 14:46:56,365 [INFO] [TEST] Iter=700, #tests=100, max=926.3439 avg=918.9760, min=911.8871, std=3.1648
+cartpole_easy: 2022-02-21 14:47:00,629 [INFO] Iter=750, size=100, max=923.0894, avg=890.4807, min=543.7126, std=62.3411
+cartpole_easy: 2022-02-21 14:47:04,885 [INFO] Iter=800, size=100, max=930.5679, avg=859.8199, min=396.5481, std=118.8271
+cartpole_easy: 2022-02-21 14:47:05,104 [INFO] [TEST] Iter=800, #tests=100, max=943.8578 avg=929.1401, min=918.2391, std=5.5924
+cartpole_easy: 2022-02-21 14:47:09,360 [INFO] Iter=850, size=100, max=930.6794, avg=896.6857, min=656.2056, std=60.0065
+cartpole_easy: 2022-02-21 14:47:13,676 [INFO] Iter=900, size=100, max=933.0345, avg=917.3782, min=725.2355, std=38.0229
+cartpole_easy: 2022-02-21 14:47:13,747 [INFO] [TEST] Iter=900, #tests=100, max=944.5662 avg=932.4247, min=907.7756, std=5.8478
+cartpole_easy: 2022-02-21 14:47:18,023 [INFO] Iter=950, size=100, max=933.5956, avg=886.4957, min=354.1052, std=96.1089
+cartpole_easy: 2022-02-21 14:47:22,253 [INFO] [TEST] Iter=1000, #tests=100, max=948.2298, avg=933.6220, min=922.2844, std=4.8815
+cartpole_easy: 2022-02-21 14:47:22,262 [INFO] Training done, best_score=933.6220
+cartpole_easy: 2022-02-21 14:47:22,273 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_18.
+cartpole_easy: 2022-02-21 14:47:22,277 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:47:22,347 [INFO] [TEST] #tests=100, max=944.5826, avg=932.7137, min=922.8732, std=4.3091
+cartpole_easy: 2022-02-21 14:47:22,406 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:47:22,411 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:47:22,524 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:47:27,893 [INFO] Iter=50, size=100, max=636.7100, avg=425.3768, min=8.8897, std=115.1224
+cartpole_easy: 2022-02-21 14:47:32,175 [INFO] Iter=100, size=100, max=707.1428, avg=604.6213, min=419.1951, std=51.2626
+cartpole_easy: 2022-02-21 14:47:32,815 [INFO] [TEST] Iter=100, #tests=100, max=742.5061 avg=682.5654, min=639.0508, std=16.6328
+cartpole_easy: 2022-02-21 14:47:37,067 [INFO] Iter=150, size=100, max=728.9755, avg=667.2647, min=554.9163, std=35.7645
+cartpole_easy: 2022-02-21 14:47:41,320 [INFO] Iter=200, size=100, max=772.9960, avg=704.0736, min=567.4877, std=37.2749
+cartpole_easy: 2022-02-21 14:47:41,392 [INFO] [TEST] Iter=200, #tests=100, max=777.7818 avg=743.0085, min=697.0211, std=17.5056
+cartpole_easy: 2022-02-21 14:47:45,646 [INFO] Iter=250, size=100, max=797.2328, avg=731.6011, min=541.3879, std=43.0226
+cartpole_easy: 2022-02-21 14:47:49,901 [INFO] Iter=300, size=100, max=825.8349, avg=787.8437, min=675.3563, std=26.9895
+cartpole_easy: 2022-02-21 14:47:49,973 [INFO] [TEST] Iter=300, #tests=100, max=828.4995 avg=813.6147, min=771.8109, std=6.6566
+cartpole_easy: 2022-02-21 14:47:54,230 [INFO] Iter=350, size=100, max=914.0793, avg=859.0852, min=599.7265, std=54.0582
+cartpole_easy: 2022-02-21 14:47:58,494 [INFO] Iter=400, size=100, max=915.9705, avg=886.3993, min=352.8558, std=66.4249
+cartpole_easy: 2022-02-21 14:47:58,552 [INFO] [TEST] Iter=400, #tests=100, max=934.2672 avg=914.0403, min=900.8246, std=5.7370
+cartpole_easy: 2022-02-21 14:48:02,823 [INFO] Iter=450, size=100, max=919.9218, avg=914.4034, min=817.0405, std=12.6074
+cartpole_easy: 2022-02-21 14:48:07,113 [INFO] Iter=500, size=100, max=921.6969, avg=892.2312, min=295.6162, std=84.0058
+cartpole_easy: 2022-02-21 14:48:07,185 [INFO] [TEST] Iter=500, #tests=100, max=939.9124 avg=921.3781, min=907.4400, std=5.4711
+cartpole_easy: 2022-02-21 14:48:11,470 [INFO] Iter=550, size=100, max=926.3608, avg=875.8161, min=186.0740, std=147.1256
+cartpole_easy: 2022-02-21 14:48:15,740 [INFO] Iter=600, size=100, max=925.8085, avg=912.2548, min=775.3452, std=26.4776
+cartpole_easy: 2022-02-21 14:48:15,799 [INFO] [TEST] Iter=600, #tests=100, max=936.2366 avg=924.2487, min=916.3483, std=4.2349
+cartpole_easy: 2022-02-21 14:48:20,062 [INFO] Iter=650, size=100, max=929.2509, avg=912.0284, min=667.1528, std=42.7398
+cartpole_easy: 2022-02-21 14:48:24,316 [INFO] Iter=700, size=100, max=931.2441, avg=891.0187, min=510.1820, std=80.5970
+cartpole_easy: 2022-02-21 14:48:25,007 [INFO] [TEST] Iter=700, #tests=100, max=939.1682 avg=930.7960, min=916.5913, std=4.3445
+cartpole_easy: 2022-02-21 14:48:29,277 [INFO] Iter=750, size=100, max=931.8188, avg=921.7567, min=830.0029, std=18.6886
+cartpole_easy: 2022-02-21 14:48:33,539 [INFO] Iter=800, size=100, max=935.3824, avg=923.4398, min=631.2118, std=40.3564
+cartpole_easy: 2022-02-21 14:48:33,739 [INFO] [TEST] Iter=800, #tests=100, max=946.7503 avg=934.3150, min=925.1217, std=4.9431
+cartpole_easy: 2022-02-21 14:48:38,015 [INFO] Iter=850, size=100, max=933.0157, avg=908.4777, min=438.2545, std=82.4231
+cartpole_easy: 2022-02-21 14:48:42,463 [INFO] Iter=900, size=100, max=936.0279, avg=908.3362, min=179.8501, std=96.2905
+cartpole_easy: 2022-02-21 14:48:42,523 [INFO] [TEST] Iter=900, #tests=100, max=946.4941 avg=935.7449, min=921.1150, std=5.1883
+cartpole_easy: 2022-02-21 14:48:46,812 [INFO] Iter=950, size=100, max=935.9117, avg=926.9600, min=878.7268, std=17.1011
+cartpole_easy: 2022-02-21 14:48:51,070 [INFO] [TEST] Iter=1000, #tests=100, max=949.9951, avg=927.4871, min=187.8264, std=74.5948
+cartpole_easy: 2022-02-21 14:48:51,080 [INFO] Training done, best_score=935.7449
+cartpole_easy: 2022-02-21 14:48:51,089 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_19.
+cartpole_easy: 2022-02-21 14:48:51,094 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:48:51,165 [INFO] [TEST] #tests=100, max=945.5159, avg=933.7417, min=917.2361, std=5.1182
+cartpole_easy: 2022-02-21 14:48:51,350 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:48:51,355 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:48:51,458 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:48:56,952 [INFO] Iter=50, size=100, max=228.3933, avg=20.3528, min=0.2095, std=36.9134
+cartpole_easy: 2022-02-21 14:49:02,173 [INFO] Iter=100, size=100, max=196.4084, avg=71.5874, min=2.1365, std=33.2355
+cartpole_easy: 2022-02-21 14:49:03,422 [INFO] [TEST] Iter=100, #tests=100, max=172.8212 avg=93.5813, min=48.5160, std=25.7885
+cartpole_easy: 2022-02-21 14:49:07,715 [INFO] Iter=150, size=100, max=150.3592, avg=81.2067, min=32.5386, std=14.2641
+cartpole_easy: 2022-02-21 14:49:12,384 [INFO] Iter=200, size=100, max=366.7268, avg=103.3413, min=0.2110, std=83.6161
+cartpole_easy: 2022-02-21 14:49:12,444 [INFO] [TEST] Iter=200, #tests=100, max=189.6140 avg=129.0983, min=109.5884, std=16.0875
+cartpole_easy: 2022-02-21 14:49:16,719 [INFO] Iter=250, size=100, max=502.4499, avg=130.0192, min=0.2479, std=104.0911
+cartpole_easy: 2022-02-21 14:49:20,989 [INFO] Iter=300, size=100, max=501.1841, avg=171.6621, min=1.3766, std=118.2069
+cartpole_easy: 2022-02-21 14:49:21,059 [INFO] [TEST] Iter=300, #tests=100, max=352.6065 avg=147.4947, min=121.6459, std=28.4070
+cartpole_easy: 2022-02-21 14:49:25,315 [INFO] Iter=350, size=100, max=506.5906, avg=229.3678, min=1.5242, std=156.3848
+cartpole_easy: 2022-02-21 14:49:29,559 [INFO] Iter=400, size=100, max=548.5361, avg=299.8819, min=23.5735, std=153.5035
+cartpole_easy: 2022-02-21 14:49:29,618 [INFO] [TEST] Iter=400, #tests=100, max=445.3666 avg=431.2452, min=399.9337, std=8.4935
+cartpole_easy: 2022-02-21 14:49:33,881 [INFO] Iter=450, size=100, max=520.4797, avg=317.0334, min=75.2680, std=127.7511
+cartpole_easy: 2022-02-21 14:49:38,383 [INFO] Iter=500, size=100, max=555.3861, avg=378.1195, min=85.8611, std=121.3638
+cartpole_easy: 2022-02-21 14:49:38,456 [INFO] [TEST] Iter=500, #tests=100, max=475.0198 avg=457.4806, min=436.4905, std=7.9425
+cartpole_easy: 2022-02-21 14:49:42,717 [INFO] Iter=550, size=100, max=639.6301, avg=449.7674, min=74.1659, std=106.8125
+cartpole_easy: 2022-02-21 14:49:47,043 [INFO] Iter=600, size=100, max=667.8190, avg=501.8471, min=157.1486, std=105.8811
+cartpole_easy: 2022-02-21 14:49:47,114 [INFO] [TEST] Iter=600, #tests=100, max=698.2760 avg=633.0901, min=581.0527, std=26.5722
+cartpole_easy: 2022-02-21 14:49:51,372 [INFO] Iter=650, size=100, max=665.7384, avg=509.9614, min=183.7769, std=89.0140
+cartpole_easy: 2022-02-21 14:49:55,629 [INFO] Iter=700, size=100, max=654.5042, avg=547.1471, min=370.2724, std=64.2704
+cartpole_easy: 2022-02-21 14:49:55,687 [INFO] [TEST] Iter=700, #tests=100, max=656.4601 avg=616.4535, min=577.5735, std=15.0220
+cartpole_easy: 2022-02-21 14:49:59,945 [INFO] Iter=750, size=100, max=668.9265, avg=565.0923, min=407.2044, std=59.2779
+cartpole_easy: 2022-02-21 14:50:04,204 [INFO] Iter=800, size=100, max=657.0417, avg=576.2790, min=492.3568, std=44.9625
+cartpole_easy: 2022-02-21 14:50:04,265 [INFO] [TEST] Iter=800, #tests=100, max=670.8536 avg=648.8510, min=605.0907, std=14.2085
+cartpole_easy: 2022-02-21 14:50:08,534 [INFO] Iter=850, size=100, max=690.6386, avg=592.6010, min=441.8174, std=55.1863
+cartpole_easy: 2022-02-21 14:50:12,793 [INFO] Iter=900, size=100, max=697.6675, avg=601.4153, min=457.9424, std=49.6028
+cartpole_easy: 2022-02-21 14:50:12,863 [INFO] [TEST] Iter=900, #tests=100, max=699.2716 avg=675.4791, min=629.1907, std=15.2330
+cartpole_easy: 2022-02-21 14:50:17,124 [INFO] Iter=950, size=100, max=693.8554, avg=602.3827, min=494.3890, std=47.3122
+cartpole_easy: 2022-02-21 14:50:21,342 [INFO] [TEST] Iter=1000, #tests=100, max=699.8085, avg=683.2679, min=658.6490, std=10.2048
+cartpole_easy: 2022-02-21 14:50:21,354 [INFO] Training done, best_score=683.2679
+cartpole_easy: 2022-02-21 14:50:21,365 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_20.
+cartpole_easy: 2022-02-21 14:50:21,369 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:50:21,437 [INFO] [TEST] #tests=100, max=700.7812, avg=682.3482, min=650.7014, std=11.7488
+cartpole_easy: 2022-02-21 14:50:21,469 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:50:21,474 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:50:21,571 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:50:26,875 [INFO] Iter=50, size=100, max=473.9203, avg=98.0817, min=0.3096, std=125.6359
+cartpole_easy: 2022-02-21 14:50:31,136 [INFO] Iter=100, size=100, max=615.4510, avg=326.3712, min=129.0346, std=92.6796
+cartpole_easy: 2022-02-21 14:50:31,751 [INFO] [TEST] Iter=100, #tests=100, max=377.9201 avg=363.1482, min=343.4005, std=5.9552
+cartpole_easy: 2022-02-21 14:50:36,014 [INFO] Iter=150, size=100, max=667.1186, avg=484.0479, min=79.9744, std=110.4688
+cartpole_easy: 2022-02-21 14:50:40,278 [INFO] Iter=200, size=100, max=706.5483, avg=564.5320, min=355.9675, std=67.1130
+cartpole_easy: 2022-02-21 14:50:40,435 [INFO] [TEST] Iter=200, #tests=100, max=659.5315 avg=630.0956, min=607.6262, std=13.9689
+cartpole_easy: 2022-02-21 14:50:44,709 [INFO] Iter=250, size=100, max=735.1890, avg=609.1426, min=357.4773, std=56.5889
+cartpole_easy: 2022-02-21 14:50:48,968 [INFO] Iter=300, size=100, max=727.0264, avg=624.0835, min=488.7704, std=52.1189
+cartpole_easy: 2022-02-21 14:50:49,028 [INFO] [TEST] Iter=300, #tests=100, max=777.7560 avg=727.1200, min=711.7124, std=9.5046
+cartpole_easy: 2022-02-21 14:50:53,300 [INFO] Iter=350, size=100, max=743.5197, avg=648.2278, min=501.5610, std=45.1080
+cartpole_easy: 2022-02-21 14:50:57,566 [INFO] Iter=400, size=100, max=771.5889, avg=666.1597, min=495.5275, std=47.7234
+cartpole_easy: 2022-02-21 14:50:57,687 [INFO] [TEST] Iter=400, #tests=100, max=748.5690 avg=718.4313, min=705.4194, std=7.9480
+cartpole_easy: 2022-02-21 14:51:01,957 [INFO] Iter=450, size=100, max=770.3836, avg=681.4871, min=574.8121, std=39.5472
+cartpole_easy: 2022-02-21 14:51:06,228 [INFO] Iter=500, size=100, max=767.0900, avg=684.0927, min=559.4153, std=46.2121
+cartpole_easy: 2022-02-21 14:51:06,312 [INFO] [TEST] Iter=500, #tests=100, max=751.9378 avg=732.5928, min=709.6520, std=8.7332
+cartpole_easy: 2022-02-21 14:51:10,586 [INFO] Iter=550, size=100, max=795.8131, avg=697.9589, min=577.5065, std=37.6885
+cartpole_easy: 2022-02-21 14:51:14,855 [INFO] Iter=600, size=100, max=776.9655, avg=700.3041, min=520.7469, std=42.0439
+cartpole_easy: 2022-02-21 14:51:15,047 [INFO] [TEST] Iter=600, #tests=100, max=778.4315 avg=742.7914, min=706.4673, std=14.2238
+cartpole_easy: 2022-02-21 14:51:19,317 [INFO] Iter=650, size=100, max=773.8016, avg=711.6509, min=577.2394, std=40.0072
+cartpole_easy: 2022-02-21 14:51:23,770 [INFO] Iter=700, size=100, max=792.7693, avg=729.4800, min=646.2610, std=30.4698
+cartpole_easy: 2022-02-21 14:51:24,091 [INFO] [TEST] Iter=700, #tests=100, max=796.7730 avg=767.2202, min=729.6005, std=13.7791
+cartpole_easy: 2022-02-21 14:51:28,377 [INFO] Iter=750, size=100, max=787.5190, avg=726.2170, min=617.6292, std=30.5320
+cartpole_easy: 2022-02-21 14:51:32,661 [INFO] Iter=800, size=100, max=788.3541, avg=740.0090, min=618.0299, std=35.6505
+cartpole_easy: 2022-02-21 14:51:32,835 [INFO] [TEST] Iter=800, #tests=100, max=808.7802 avg=769.9384, min=737.5175, std=14.1882
+cartpole_easy: 2022-02-21 14:51:37,094 [INFO] Iter=850, size=100, max=804.4860, avg=750.4778, min=638.3502, std=30.5404
+cartpole_easy: 2022-02-21 14:51:41,360 [INFO] Iter=900, size=100, max=806.4382, avg=756.9445, min=641.1885, std=31.5039
+cartpole_easy: 2022-02-21 14:51:41,994 [INFO] [TEST] Iter=900, #tests=100, max=811.9399 avg=797.8351, min=761.7925, std=9.4943
+cartpole_easy: 2022-02-21 14:51:46,258 [INFO] Iter=950, size=100, max=813.3755, avg=765.1727, min=655.0422, std=32.9384
+cartpole_easy: 2022-02-21 14:51:50,486 [INFO] [TEST] Iter=1000, #tests=100, max=853.7495, avg=813.6445, min=772.8488, std=18.6864
+cartpole_easy: 2022-02-21 14:51:50,609 [INFO] Training done, best_score=813.6445
+cartpole_easy: 2022-02-21 14:51:50,621 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_21.
+cartpole_easy: 2022-02-21 14:51:50,626 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:51:50,702 [INFO] [TEST] #tests=100, max=847.8769, avg=812.1760, min=777.6453, std=18.4581
+cartpole_easy: 2022-02-21 14:51:50,734 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:51:50,739 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:51:50,837 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:51:56,124 [INFO] Iter=50, size=100, max=621.9442, avg=400.7821, min=81.7064, std=121.1450
+cartpole_easy: 2022-02-21 14:52:00,454 [INFO] Iter=100, size=100, max=694.0776, avg=561.1799, min=283.6337, std=79.3890
+cartpole_easy: 2022-02-21 14:52:01,683 [INFO] [TEST] Iter=100, #tests=100, max=725.8406 avg=677.6906, min=647.7775, std=19.1401
+cartpole_easy: 2022-02-21 14:52:05,958 [INFO] Iter=150, size=100, max=705.0175, avg=592.7849, min=172.4582, std=72.7917
+cartpole_easy: 2022-02-21 14:52:10,429 [INFO] Iter=200, size=100, max=738.1125, avg=640.6438, min=364.8869, std=53.2828
+cartpole_easy: 2022-02-21 14:52:10,490 [INFO] [TEST] Iter=200, #tests=100, max=665.6859 avg=651.6447, min=635.7494, std=6.2871
+cartpole_easy: 2022-02-21 14:52:14,758 [INFO] Iter=250, size=100, max=735.3679, avg=658.5098, min=529.2258, std=42.9890
+cartpole_easy: 2022-02-21 14:52:19,034 [INFO] Iter=300, size=100, max=734.8401, avg=676.4506, min=563.3350, std=37.3791
+cartpole_easy: 2022-02-21 14:52:19,108 [INFO] [TEST] Iter=300, #tests=100, max=769.8615 avg=733.3455, min=710.1242, std=8.6611
+cartpole_easy: 2022-02-21 14:52:23,374 [INFO] Iter=350, size=100, max=771.9983, avg=694.8342, min=520.6288, std=39.9596
+cartpole_easy: 2022-02-21 14:52:28,371 [INFO] Iter=400, size=100, max=759.9910, avg=703.0939, min=582.7028, std=35.7539
+cartpole_easy: 2022-02-21 14:52:29,210 [INFO] [TEST] Iter=400, #tests=100, max=807.8991 avg=761.3932, min=724.4382, std=14.7399
+cartpole_easy: 2022-02-21 14:52:33,466 [INFO] Iter=450, size=100, max=767.1602, avg=718.7040, min=618.3380, std=26.6628
+cartpole_easy: 2022-02-21 14:52:37,722 [INFO] Iter=500, size=100, max=783.2068, avg=732.9424, min=625.3628, std=30.2288
+cartpole_easy: 2022-02-21 14:52:37,784 [INFO] [TEST] Iter=500, #tests=100, max=815.7849 avg=778.3943, min=750.0185, std=15.6660
+cartpole_easy: 2022-02-21 14:52:42,043 [INFO] Iter=550, size=100, max=811.4000, avg=748.7173, min=633.8207, std=35.6304
+cartpole_easy: 2022-02-21 14:52:46,303 [INFO] Iter=600, size=100, max=833.0654, avg=775.9780, min=529.5801, std=47.7330
+cartpole_easy: 2022-02-21 14:52:46,375 [INFO] [TEST] Iter=600, #tests=100, max=816.7742 avg=804.3260, min=785.9644, std=6.0181
+cartpole_easy: 2022-02-21 14:52:50,667 [INFO] Iter=650, size=100, max=903.4332, avg=869.3546, min=678.4163, std=36.2282
+cartpole_easy: 2022-02-21 14:52:54,950 [INFO] Iter=700, size=100, max=915.1208, avg=902.0485, min=797.8385, std=19.6151
+cartpole_easy: 2022-02-21 14:52:55,022 [INFO] [TEST] Iter=700, #tests=100, max=918.7806 avg=912.2495, min=903.5287, std=3.3318
+cartpole_easy: 2022-02-21 14:52:59,286 [INFO] Iter=750, size=100, max=917.0080, avg=906.9675, min=636.3533, std=32.1777
+cartpole_easy: 2022-02-21 14:53:03,545 [INFO] Iter=800, size=100, max=922.3829, avg=881.1222, min=345.3377, std=101.4369
+cartpole_easy: 2022-02-21 14:53:03,749 [INFO] [TEST] Iter=800, #tests=100, max=933.3492 avg=920.4812, min=913.2605, std=4.2688
+cartpole_easy: 2022-02-21 14:53:08,016 [INFO] Iter=850, size=100, max=925.2593, avg=855.0748, min=77.8426, std=174.4865
+cartpole_easy: 2022-02-21 14:53:12,281 [INFO] Iter=900, size=100, max=930.6649, avg=905.0735, min=489.0607, std=75.8823
+cartpole_easy: 2022-02-21 14:53:12,342 [INFO] [TEST] Iter=900, #tests=100, max=939.2222 avg=929.1948, min=887.4967, std=6.0691
+cartpole_easy: 2022-02-21 14:53:16,614 [INFO] Iter=950, size=100, max=932.0229, avg=907.2570, min=256.2884, std=81.2517
+cartpole_easy: 2022-02-21 14:53:20,843 [INFO] [TEST] Iter=1000, #tests=100, max=947.0684, avg=933.0573, min=919.4556, std=5.1822
+cartpole_easy: 2022-02-21 14:53:20,854 [INFO] Training done, best_score=933.0573
+cartpole_easy: 2022-02-21 14:53:20,865 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_22.
+cartpole_easy: 2022-02-21 14:53:20,870 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:53:20,940 [INFO] [TEST] #tests=100, max=943.4655, avg=931.4046, min=886.6314, std=7.2564
+cartpole_easy: 2022-02-21 14:53:21,020 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:53:21,027 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:53:21,131 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:53:26,433 [INFO] Iter=50, size=100, max=625.7630, avg=478.1596, min=67.6111, std=121.1691
+cartpole_easy: 2022-02-21 14:53:30,685 [INFO] Iter=100, size=100, max=710.0873, avg=596.9613, min=283.8014, std=63.0540
+cartpole_easy: 2022-02-21 14:53:31,297 [INFO] [TEST] Iter=100, #tests=100, max=694.3593 avg=677.5609, min=665.7863, std=4.8713
+cartpole_easy: 2022-02-21 14:53:35,560 [INFO] Iter=150, size=100, max=713.2656, avg=627.6939, min=490.5223, std=47.5070
+cartpole_easy: 2022-02-21 14:53:39,814 [INFO] Iter=200, size=100, max=740.5426, avg=654.2670, min=495.4908, std=45.1431
+cartpole_easy: 2022-02-21 14:53:39,889 [INFO] [TEST] Iter=200, #tests=100, max=750.0571 avg=672.9041, min=647.5319, std=18.8824
+cartpole_easy: 2022-02-21 14:53:44,152 [INFO] Iter=250, size=100, max=738.5532, avg=665.9702, min=493.1116, std=42.4718
+cartpole_easy: 2022-02-21 14:53:48,409 [INFO] Iter=300, size=100, max=755.6613, avg=686.6406, min=497.6971, std=44.9796
+cartpole_easy: 2022-02-21 14:53:48,468 [INFO] [TEST] Iter=300, #tests=100, max=812.0560 avg=746.0165, min=690.9622, std=17.2890
+cartpole_easy: 2022-02-21 14:53:52,723 [INFO] Iter=350, size=100, max=755.3465, avg=695.8699, min=580.2333, std=38.6912
+cartpole_easy: 2022-02-21 14:53:56,978 [INFO] Iter=400, size=100, max=775.0853, avg=712.9093, min=628.8850, std=29.9837
+cartpole_easy: 2022-02-21 14:53:57,053 [INFO] [TEST] Iter=400, #tests=100, max=810.0899 avg=755.5402, min=726.0166, std=16.7732
+cartpole_easy: 2022-02-21 14:54:01,324 [INFO] Iter=450, size=100, max=777.4744, avg=710.6364, min=543.8839, std=37.2434
+cartpole_easy: 2022-02-21 14:54:05,592 [INFO] Iter=500, size=100, max=769.9741, avg=724.3403, min=601.3229, std=31.5709
+cartpole_easy: 2022-02-21 14:54:05,653 [INFO] [TEST] Iter=500, #tests=100, max=836.0656 avg=770.5824, min=728.3263, std=21.4926
+cartpole_easy: 2022-02-21 14:54:09,931 [INFO] Iter=550, size=100, max=802.2130, avg=743.1794, min=505.7589, std=53.9892
+cartpole_easy: 2022-02-21 14:54:14,197 [INFO] Iter=600, size=100, max=837.7683, avg=782.1990, min=678.6323, std=31.7010
+cartpole_easy: 2022-02-21 14:54:14,257 [INFO] [TEST] Iter=600, #tests=100, max=852.0865 avg=826.5793, min=793.6750, std=16.1563
+cartpole_easy: 2022-02-21 14:54:18,534 [INFO] Iter=650, size=100, max=893.6569, avg=816.7068, min=695.4481, std=32.5460
+cartpole_easy: 2022-02-21 14:54:22,798 [INFO] Iter=700, size=100, max=915.0144, avg=877.3859, min=406.4251, std=83.1113
+cartpole_easy: 2022-02-21 14:54:22,870 [INFO] [TEST] Iter=700, #tests=100, max=923.5117 avg=912.7631, min=904.1980, std=4.5192
+cartpole_easy: 2022-02-21 14:54:27,146 [INFO] Iter=750, size=100, max=919.8383, avg=901.9026, min=500.7774, std=49.7169
+cartpole_easy: 2022-02-21 14:54:31,412 [INFO] Iter=800, size=100, max=920.7690, avg=909.8028, min=843.0051, std=17.1778
+cartpole_easy: 2022-02-21 14:54:31,484 [INFO] [TEST] Iter=800, #tests=100, max=930.6652 avg=921.1019, min=909.6191, std=4.7176
+cartpole_easy: 2022-02-21 14:54:35,761 [INFO] Iter=850, size=100, max=926.8695, avg=900.4836, min=560.3132, std=57.2036
+cartpole_easy: 2022-02-21 14:54:40,025 [INFO] Iter=900, size=100, max=928.3579, avg=874.9148, min=526.2499, std=93.1678
+cartpole_easy: 2022-02-21 14:54:40,086 [INFO] [TEST] Iter=900, #tests=100, max=940.3741 avg=928.4147, min=920.7808, std=4.0204
+cartpole_easy: 2022-02-21 14:54:44,338 [INFO] Iter=950, size=100, max=931.0716, avg=902.8932, min=623.7856, std=51.9768
+cartpole_easy: 2022-02-21 14:54:48,548 [INFO] [TEST] Iter=1000, #tests=100, max=943.5887, avg=932.2485, min=917.5310, std=4.8514
+cartpole_easy: 2022-02-21 14:54:48,558 [INFO] Training done, best_score=932.2485
+cartpole_easy: 2022-02-21 14:54:48,569 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_23.
+cartpole_easy: 2022-02-21 14:54:48,575 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:54:48,646 [INFO] [TEST] #tests=100, max=941.8332, avg=929.0365, min=526.2095, std=40.7429
+cartpole_easy: 2022-02-21 14:54:48,675 [INFO] EvoJAX cartpole_easy
+cartpole_easy: 2022-02-21 14:54:48,680 [INFO] ==============================
+cartpole_easy: 2022-02-21 14:54:48,774 [INFO] Start to train for 1000 iterations.
+cartpole_easy: 2022-02-21 14:54:54,111 [INFO] Iter=50, size=100, max=622.9476, avg=511.4692, min=121.4845, std=68.1552
+cartpole_easy: 2022-02-21 14:54:58,384 [INFO] Iter=100, size=100, max=708.8311, avg=604.6204, min=479.5027, std=42.7744
+cartpole_easy: 2022-02-21 14:54:59,019 [INFO] [TEST] Iter=100, #tests=100, max=693.6121 avg=664.1190, min=642.5703, std=8.9756
+cartpole_easy: 2022-02-21 14:55:03,317 [INFO] Iter=150, size=100, max=731.0438, avg=657.4426, min=525.8847, std=44.5554
+cartpole_easy: 2022-02-21 14:55:07,598 [INFO] Iter=200, size=100, max=766.8145, avg=688.8441, min=535.2222, std=46.2101
+cartpole_easy: 2022-02-21 14:55:07,659 [INFO] [TEST] Iter=200, #tests=100, max=768.5042 avg=748.5067, min=706.3826, std=6.7949
+cartpole_easy: 2022-02-21 14:55:11,941 [INFO] Iter=250, size=100, max=773.7117, avg=705.0356, min=561.4628, std=44.9529
+cartpole_easy: 2022-02-21 14:55:16,213 [INFO] Iter=300, size=100, max=782.2168, avg=737.5012, min=582.4970, std=35.7898
+cartpole_easy: 2022-02-21 14:55:16,285 [INFO] [TEST] Iter=300, #tests=100, max=803.6655 avg=774.7072, min=737.6393, std=13.5531
+cartpole_easy: 2022-02-21 14:55:20,555 [INFO] Iter=350, size=100, max=809.2207, avg=760.5994, min=544.8411, std=44.1813
+cartpole_easy: 2022-02-21 14:55:24,824 [INFO] Iter=400, size=100, max=913.9670, avg=884.6731, min=177.1847, std=74.4993
+cartpole_easy: 2022-02-21 14:55:24,885 [INFO] [TEST] Iter=400, #tests=100, max=924.8896 avg=911.9148, min=880.3477, std=6.0059
+cartpole_easy: 2022-02-21 14:55:29,149 [INFO] Iter=450, size=100, max=917.7336, avg=906.7018, min=735.0418, std=23.4851
+cartpole_easy: 2022-02-21 14:55:33,409 [INFO] Iter=500, size=100, max=923.5665, avg=906.1736, min=529.9838, std=45.2197
+cartpole_easy: 2022-02-21 14:55:33,481 [INFO] [TEST] Iter=500, #tests=100, max=933.1146 avg=922.8347, min=910.1309, std=4.8877
+cartpole_easy: 2022-02-21 14:55:37,742 [INFO] Iter=550, size=100, max=925.0958, avg=888.2336, min=370.4890, std=103.6071
+cartpole_easy: 2022-02-21 14:55:42,009 [INFO] Iter=600, size=100, max=927.9866, avg=899.4371, min=609.2392, std=60.0284
+cartpole_easy: 2022-02-21 14:55:42,072 [INFO] [TEST] Iter=600, #tests=100, max=938.9055 avg=927.6334, min=914.7358, std=4.7711
+cartpole_easy: 2022-02-21 14:55:46,351 [INFO] Iter=650, size=100, max=928.9804, avg=851.3129, min=305.0255, std=145.7473
+cartpole_easy: 2022-02-21 14:55:50,635 [INFO] Iter=700, size=100, max=931.9816, avg=865.3469, min=163.0193, std=141.0297
+cartpole_easy: 2022-02-21 14:55:50,707 [INFO] [TEST] Iter=700, #tests=100, max=944.6246 avg=931.4387, min=911.7338, std=4.4117
+cartpole_easy: 2022-02-21 14:55:54,974 [INFO] Iter=750, size=100, max=933.2066, avg=869.2629, min=181.7172, std=127.0775
+cartpole_easy: 2022-02-21 14:55:59,234 [INFO] Iter=800, size=100, max=933.6909, avg=846.0183, min=128.5788, std=193.5348
+cartpole_easy: 2022-02-21 14:55:59,294 [INFO] [TEST] Iter=800, #tests=100, max=943.9537 avg=933.8028, min=900.5819, std=5.9077
+cartpole_easy: 2022-02-21 14:56:03,555 [INFO] Iter=850, size=100, max=936.0451, avg=889.9734, min=98.5774, std=143.5741
+cartpole_easy: 2022-02-21 14:56:07,877 [INFO] Iter=900, size=100, max=934.5693, avg=904.8175, min=279.7542, std=100.6612
+cartpole_easy: 2022-02-21 14:56:08,108 [INFO] [TEST] Iter=900, #tests=100, max=947.7560 avg=934.7623, min=916.8943, std=5.0924
+cartpole_easy: 2022-02-21 14:56:12,382 [INFO] Iter=950, size=100, max=936.2467, avg=904.8102, min=604.7443, std=59.1704
+cartpole_easy: 2022-02-21 14:56:16,628 [INFO] [TEST] Iter=1000, #tests=100, max=947.6520, avg=935.9058, min=922.3348, std=4.6777
+cartpole_easy: 2022-02-21 14:56:16,640 [INFO] Training done, best_score=935.9058
+cartpole_easy: 2022-02-21 14:56:16,652 [INFO] Loaded model parameters from ./log/OpenES/cartpole_easy/grid_24.
+cartpole_easy: 2022-02-21 14:56:16,658 [INFO] Start to test the parameters.
+cartpole_easy: 2022-02-21 14:56:16,727 [INFO] [TEST] #tests=100, max=948.5518, avg=936.6827, min=918.5874, std=4.6219
