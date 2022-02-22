@@ -1,0 +1,23 @@
+batch_size: 1024
+debug: 0
+es_config:
+  center_learning_rate: 0.006
+  init_stdev: 0.039
+  optimizer: adam
+  pop_size: 64
+  stdev_learning_rate: 0.089
+es_name: PGPE
+gpu_id:
+- 0
+- 1
+- 2
+- 3
+hidden_size: 100
+log_interval: 100
+max_iter: 2000
+n_repeats: 1
+normalize: 0
+num_tests: 1
+problem_type: mnist
+seed: 42
+test_interval: 500

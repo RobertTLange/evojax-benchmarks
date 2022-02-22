@@ -1,0 +1,22 @@
+debug: 0
+es_config:
+  center_learning_rate: 0.014
+  init_stdev: 0.069
+  optimizer: adam
+  pop_size: 256
+  stdev_learning_rate: 0.088
+es_name: PGPE
+gpu_id:
+- 0
+- 1
+- 2
+- 3
+hidden_size: 100
+log_interval: 10
+max_iter: 1000
+n_repeats: 32
+normalize: 0
+num_tests: 100
+problem_type: waterworld
+seed: 42
+test_interval: 50

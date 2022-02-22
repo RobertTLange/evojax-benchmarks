@@ -16,7 +16,7 @@ es_config:
     beta_2: 0.999
     eps: 1e-08
 hidden_size: 100
-num_tests: 100
+num_tests: 16
 n_repeats: 64
 max_iter: 2000
 test_interval: 100

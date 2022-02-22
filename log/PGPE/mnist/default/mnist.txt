@@ -1,0 +1,31 @@
+mnist: 2022-02-22 10:14:58,272 [INFO] EvoJAX mnist
+mnist: 2022-02-22 10:14:58,273 [INFO] ==============================
+mnist: 2022-02-22 10:15:11,011 [INFO] ConvNetPolicy.num_params = 11274
+mnist: 2022-02-22 10:15:11,604 [INFO] Start to train for 2000 iterations.
+mnist: 2022-02-22 10:15:24,213 [INFO] Iter=100, size=64, max=-0.8502, avg=-1.0070, min=-1.3386, std=0.1087
+mnist: 2022-02-22 10:15:28,783 [INFO] Iter=200, size=64, max=-0.5141, avg=-0.6427, min=-1.1951, std=0.1035
+mnist: 2022-02-22 10:15:33,349 [INFO] Iter=300, size=64, max=-0.3843, avg=-0.4649, min=-0.6078, std=0.0451
+mnist: 2022-02-22 10:15:37,919 [INFO] Iter=400, size=64, max=-0.3158, avg=-0.3739, min=-0.4696, std=0.0353
+mnist: 2022-02-22 10:15:42,499 [INFO] Iter=500, size=64, max=-0.2607, avg=-0.3082, min=-0.4346, std=0.0270
+mnist: 2022-02-22 10:15:44,145 [INFO] [TEST] Iter=500, #tests=1, max=0.9369 avg=0.9369, min=0.9369, std=0.0000
+mnist: 2022-02-22 10:15:48,833 [INFO] Iter=600, size=64, max=-0.2589, avg=-0.3099, min=-0.3777, std=0.0241
+mnist: 2022-02-22 10:15:53,421 [INFO] Iter=700, size=64, max=-0.1483, avg=-0.1900, min=-0.2742, std=0.0220
+mnist: 2022-02-22 10:15:58,015 [INFO] Iter=800, size=64, max=-0.1622, avg=-0.2043, min=-0.2849, std=0.0235
+mnist: 2022-02-22 10:16:02,614 [INFO] Iter=900, size=64, max=-0.1564, avg=-0.1869, min=-0.2576, std=0.0212
+mnist: 2022-02-22 10:16:07,213 [INFO] Iter=1000, size=64, max=-0.1475, avg=-0.1730, min=-0.2186, std=0.0151
+mnist: 2022-02-22 10:16:07,221 [INFO] [TEST] Iter=1000, #tests=1, max=0.9632 avg=0.9632, min=0.9632, std=0.0000
+mnist: 2022-02-22 10:16:11,841 [INFO] Iter=1100, size=64, max=-0.1123, avg=-0.1600, min=-0.2204, std=0.0171
+mnist: 2022-02-22 10:16:16,447 [INFO] Iter=1200, size=64, max=-0.1369, avg=-0.1693, min=-0.2088, std=0.0141
+mnist: 2022-02-22 10:16:21,054 [INFO] Iter=1300, size=64, max=-0.1430, avg=-0.1764, min=-0.2437, std=0.0184
+mnist: 2022-02-22 10:16:25,661 [INFO] Iter=1400, size=64, max=-0.1188, avg=-0.1381, min=-0.1567, std=0.0097
+mnist: 2022-02-22 10:16:30,272 [INFO] Iter=1500, size=64, max=-0.1289, avg=-0.1596, min=-0.2286, std=0.0143
+mnist: 2022-02-22 10:16:30,281 [INFO] [TEST] Iter=1500, #tests=1, max=0.9681 avg=0.9681, min=0.9681, std=0.0000
+mnist: 2022-02-22 10:16:34,900 [INFO] Iter=1600, size=64, max=-0.1292, avg=-0.1529, min=-0.2124, std=0.0185
+mnist: 2022-02-22 10:16:39,509 [INFO] Iter=1700, size=64, max=-0.1101, avg=-0.1393, min=-0.1857, std=0.0144
+mnist: 2022-02-22 10:16:44,125 [INFO] Iter=1800, size=64, max=-0.1059, avg=-0.1256, min=-0.1638, std=0.0124
+mnist: 2022-02-22 10:16:48,734 [INFO] Iter=1900, size=64, max=-0.0911, avg=-0.1100, min=-0.1504, std=0.0129
+mnist: 2022-02-22 10:16:53,312 [INFO] [TEST] Iter=2000, #tests=1, max=0.9743, avg=0.9743, min=0.9743, std=0.0000
+mnist: 2022-02-22 10:16:53,320 [INFO] Training done, best_score=0.9743
+mnist: 2022-02-22 10:16:53,338 [INFO] Loaded model parameters from ./log/PGPE/mnist/default.
+mnist: 2022-02-22 10:16:53,339 [INFO] Start to test the parameters.
+mnist: 2022-02-22 10:16:53,347 [INFO] [TEST] #tests=1, max=0.9743, avg=0.9743, min=0.9743, std=0.0000

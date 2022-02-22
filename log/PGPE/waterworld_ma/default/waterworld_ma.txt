@@ -1,0 +1,254 @@
+waterworld_ma: 2022-02-22 10:30:25,896 [INFO] EvoJAX waterworld_ma
+waterworld_ma: 2022-02-22 10:30:25,897 [INFO] ==============================
+waterworld_ma: 2022-02-22 11:09:31,401 [INFO] EvoJAX waterworld_ma
+waterworld_ma: 2022-02-22 11:09:31,402 [INFO] ==============================
+waterworld_ma: 2022-02-22 11:09:35,161 [INFO] Start to train for 2000 iterations.
+waterworld_ma: 2022-02-22 11:11:01,178 [INFO] Iter=10, size=16, max=0.3125, avg=-0.0176, min=-0.4219, std=0.1867
+waterworld_ma: 2022-02-22 11:11:08,821 [INFO] Iter=20, size=16, max=0.1406, avg=-0.1309, min=-0.5781, std=0.1992
+waterworld_ma: 2022-02-22 11:11:16,457 [INFO] Iter=30, size=16, max=0.4531, avg=0.0576, min=-0.2500, std=0.1947
+waterworld_ma: 2022-02-22 11:11:24,118 [INFO] Iter=40, size=16, max=0.3594, avg=-0.0713, min=-0.4688, std=0.1893
+waterworld_ma: 2022-02-22 11:11:31,756 [INFO] Iter=50, size=16, max=0.2031, avg=-0.0498, min=-0.5156, std=0.1579
+waterworld_ma: 2022-02-22 11:11:39,411 [INFO] Iter=60, size=16, max=0.5000, avg=0.0928, min=-0.2656, std=0.2136
+waterworld_ma: 2022-02-22 11:11:47,079 [INFO] Iter=70, size=16, max=0.5000, avg=0.0635, min=-0.2188, std=0.2243
+waterworld_ma: 2022-02-22 11:11:54,737 [INFO] Iter=80, size=16, max=0.2656, avg=0.0381, min=-0.3750, std=0.1814
+waterworld_ma: 2022-02-22 11:12:02,402 [INFO] Iter=90, size=16, max=0.4219, avg=0.0703, min=-0.3750, std=0.2204
+waterworld_ma: 2022-02-22 11:12:10,041 [INFO] Iter=100, size=16, max=0.5000, avg=0.1455, min=-0.2500, std=0.2297
+waterworld_ma: 2022-02-22 12:28:44,962 [INFO] EvoJAX waterworld_ma
+waterworld_ma: 2022-02-22 12:28:44,963 [INFO] ==============================
+waterworld_ma: 2022-02-22 12:28:48,936 [INFO] Start to train for 2000 iterations.
+waterworld_ma: 2022-02-22 12:30:14,581 [INFO] Iter=10, size=16, max=0.3125, avg=-0.0176, min=-0.4219, std=0.1867
+waterworld_ma: 2022-02-22 12:30:22,319 [INFO] Iter=20, size=16, max=0.1406, avg=-0.1309, min=-0.5781, std=0.1992
+waterworld_ma: 2022-02-22 12:30:30,058 [INFO] Iter=30, size=16, max=0.4531, avg=0.0576, min=-0.2500, std=0.1947
+waterworld_ma: 2022-02-22 12:30:37,801 [INFO] Iter=40, size=16, max=0.3594, avg=-0.0713, min=-0.4688, std=0.1893
+waterworld_ma: 2022-02-22 12:30:45,531 [INFO] Iter=50, size=16, max=0.2031, avg=-0.0498, min=-0.5156, std=0.1579
+waterworld_ma: 2022-02-22 12:30:53,278 [INFO] Iter=60, size=16, max=0.5000, avg=0.0928, min=-0.2656, std=0.2136
+waterworld_ma: 2022-02-22 12:31:01,013 [INFO] Iter=70, size=16, max=0.5000, avg=0.0635, min=-0.2188, std=0.2243
+waterworld_ma: 2022-02-22 12:31:08,756 [INFO] Iter=80, size=16, max=0.2656, avg=0.0381, min=-0.3750, std=0.1814
+waterworld_ma: 2022-02-22 12:31:16,494 [INFO] Iter=90, size=16, max=0.4219, avg=0.0703, min=-0.3750, std=0.2204
+waterworld_ma: 2022-02-22 12:31:24,227 [INFO] Iter=100, size=16, max=0.5000, avg=0.1455, min=-0.2500, std=0.2297
+waterworld_ma: 2022-02-22 12:37:51,857 [INFO] EvoJAX waterworld_ma
+waterworld_ma: 2022-02-22 12:37:51,858 [INFO] ==============================
+waterworld_ma: 2022-02-22 12:37:55,723 [INFO] Start to train for 2000 iterations.
+waterworld_ma: 2022-02-22 12:39:19,774 [INFO] Iter=10, size=16, max=0.3125, avg=-0.0176, min=-0.4219, std=0.1867
+waterworld_ma: 2022-02-22 12:39:27,466 [INFO] Iter=20, size=16, max=0.1406, avg=-0.1309, min=-0.5781, std=0.1992
+waterworld_ma: 2022-02-22 12:39:35,182 [INFO] Iter=30, size=16, max=0.4531, avg=0.0576, min=-0.2500, std=0.1947
+waterworld_ma: 2022-02-22 12:39:42,895 [INFO] Iter=40, size=16, max=0.3594, avg=-0.0713, min=-0.4688, std=0.1893
+waterworld_ma: 2022-02-22 12:39:50,593 [INFO] Iter=50, size=16, max=0.2031, avg=-0.0498, min=-0.5156, std=0.1579
+waterworld_ma: 2022-02-22 12:39:58,285 [INFO] Iter=60, size=16, max=0.5000, avg=0.0928, min=-0.2656, std=0.2136
+waterworld_ma: 2022-02-22 12:40:05,981 [INFO] Iter=70, size=16, max=0.5000, avg=0.0635, min=-0.2188, std=0.2243
+waterworld_ma: 2022-02-22 12:40:13,680 [INFO] Iter=80, size=16, max=0.2656, avg=0.0381, min=-0.3750, std=0.1814
+waterworld_ma: 2022-02-22 12:40:21,370 [INFO] Iter=90, size=16, max=0.4219, avg=0.0703, min=-0.3750, std=0.2204
+waterworld_ma: 2022-02-22 12:40:29,062 [INFO] Iter=100, size=16, max=0.5000, avg=0.1455, min=-0.2500, std=0.2297
+waterworld_ma: 2022-02-22 12:41:29,253 [INFO] [TEST] Iter=100, #tests=1, max=-0.3750 avg=-0.3750, min=-0.3750, std=0.0000
+waterworld_ma: 2022-02-22 12:41:37,102 [INFO] Iter=110, size=16, max=0.5625, avg=0.0684, min=-0.3750, std=0.2614
+waterworld_ma: 2022-02-22 12:41:44,813 [INFO] Iter=120, size=16, max=0.3750, avg=0.0762, min=-0.2656, std=0.2031
+waterworld_ma: 2022-02-22 12:41:52,545 [INFO] Iter=130, size=16, max=0.4219, avg=0.0664, min=-0.4531, std=0.2050
+waterworld_ma: 2022-02-22 12:42:00,249 [INFO] Iter=140, size=16, max=0.3750, avg=0.0029, min=-0.5000, std=0.2149
+waterworld_ma: 2022-02-22 12:42:07,945 [INFO] Iter=150, size=16, max=0.4688, avg=0.0723, min=-0.2656, std=0.2257
+waterworld_ma: 2022-02-22 12:42:15,664 [INFO] Iter=160, size=16, max=0.4844, avg=0.0781, min=-0.1250, std=0.1644
+waterworld_ma: 2022-02-22 12:42:23,356 [INFO] Iter=170, size=16, max=0.5625, avg=0.1523, min=-0.1250, std=0.1931
+waterworld_ma: 2022-02-22 12:42:31,055 [INFO] Iter=180, size=16, max=0.5625, avg=0.0518, min=-0.2031, std=0.1987
+waterworld_ma: 2022-02-22 12:42:38,745 [INFO] Iter=190, size=16, max=0.2500, avg=0.0811, min=-0.1562, std=0.1271
+waterworld_ma: 2022-02-22 12:42:46,455 [INFO] Iter=200, size=16, max=0.3906, avg=0.0898, min=-0.2500, std=0.1423
+waterworld_ma: 2022-02-22 12:42:47,038 [INFO] [TEST] Iter=200, #tests=1, max=-0.3125 avg=-0.3125, min=-0.3125, std=0.0000
+waterworld_ma: 2022-02-22 12:42:54,751 [INFO] Iter=210, size=16, max=0.5625, avg=0.1719, min=-0.2031, std=0.2263
+waterworld_ma: 2022-02-22 12:43:02,448 [INFO] Iter=220, size=16, max=0.5469, avg=0.1309, min=-0.3281, std=0.2419
+waterworld_ma: 2022-02-22 12:43:10,148 [INFO] Iter=230, size=16, max=0.3281, avg=0.0664, min=-0.1719, std=0.1410
+waterworld_ma: 2022-02-22 12:43:17,838 [INFO] Iter=240, size=16, max=0.6406, avg=0.0928, min=-0.2188, std=0.2284
+waterworld_ma: 2022-02-22 12:43:25,524 [INFO] Iter=250, size=16, max=0.5156, avg=0.0332, min=-0.3750, std=0.2548
+waterworld_ma: 2022-02-22 12:43:33,220 [INFO] Iter=260, size=16, max=0.6562, avg=0.1201, min=-0.2969, std=0.2366
+waterworld_ma: 2022-02-22 12:43:40,917 [INFO] Iter=270, size=16, max=0.6250, avg=0.0498, min=-0.1875, std=0.2181
+waterworld_ma: 2022-02-22 12:43:48,617 [INFO] Iter=280, size=16, max=0.6562, avg=0.1660, min=-0.3750, std=0.2836
+waterworld_ma: 2022-02-22 12:43:56,306 [INFO] Iter=290, size=16, max=0.7500, avg=0.1143, min=-0.3281, std=0.2423
+waterworld_ma: 2022-02-22 12:44:03,999 [INFO] Iter=300, size=16, max=0.4688, avg=0.2354, min=-0.1250, std=0.1899
+waterworld_ma: 2022-02-22 12:44:04,602 [INFO] [TEST] Iter=300, #tests=1, max=0.0625 avg=0.0625, min=0.0625, std=0.0000
+waterworld_ma: 2022-02-22 12:44:12,298 [INFO] Iter=310, size=16, max=0.4375, avg=0.0537, min=-0.4688, std=0.2173
+waterworld_ma: 2022-02-22 12:44:19,989 [INFO] Iter=320, size=16, max=0.5938, avg=0.0996, min=-0.4688, std=0.2459
+waterworld_ma: 2022-02-22 12:44:27,687 [INFO] Iter=330, size=16, max=0.7656, avg=0.1396, min=-0.1875, std=0.2613
+waterworld_ma: 2022-02-22 12:44:35,376 [INFO] Iter=340, size=16, max=0.9375, avg=0.1670, min=-0.0625, std=0.2347
+waterworld_ma: 2022-02-22 12:44:43,083 [INFO] Iter=350, size=16, max=0.7969, avg=0.2520, min=-0.2188, std=0.2247
+waterworld_ma: 2022-02-22 12:44:50,791 [INFO] Iter=360, size=16, max=0.6250, avg=0.1553, min=-0.3594, std=0.2791
+waterworld_ma: 2022-02-22 12:44:58,490 [INFO] Iter=370, size=16, max=0.8281, avg=0.2305, min=-0.2344, std=0.2574
+waterworld_ma: 2022-02-22 12:45:06,183 [INFO] Iter=380, size=16, max=0.5312, avg=0.2256, min=-0.1406, std=0.1738
+waterworld_ma: 2022-02-22 12:45:13,888 [INFO] Iter=390, size=16, max=0.7969, avg=0.3164, min=-0.1250, std=0.2786
+waterworld_ma: 2022-02-22 12:45:21,597 [INFO] Iter=400, size=16, max=0.3750, avg=0.0928, min=-0.3125, std=0.1824
+waterworld_ma: 2022-02-22 12:45:22,191 [INFO] [TEST] Iter=400, #tests=1, max=0.4375 avg=0.4375, min=0.4375, std=0.0000
+waterworld_ma: 2022-02-22 12:45:29,923 [INFO] Iter=410, size=16, max=0.5625, avg=0.1699, min=-0.2344, std=0.2219
+waterworld_ma: 2022-02-22 12:45:37,631 [INFO] Iter=420, size=16, max=0.6875, avg=0.2393, min=-0.1875, std=0.2505
+waterworld_ma: 2022-02-22 12:45:45,337 [INFO] Iter=430, size=16, max=0.8438, avg=0.2422, min=-0.1562, std=0.2958
+waterworld_ma: 2022-02-22 12:45:53,046 [INFO] Iter=440, size=16, max=0.6562, avg=0.1699, min=-0.1719, std=0.2385
+waterworld_ma: 2022-02-22 12:46:00,758 [INFO] Iter=450, size=16, max=0.6250, avg=0.1709, min=-0.1719, std=0.2270
+waterworld_ma: 2022-02-22 12:46:08,466 [INFO] Iter=460, size=16, max=0.6875, avg=0.2832, min=-0.1250, std=0.2314
+waterworld_ma: 2022-02-22 12:46:16,170 [INFO] Iter=470, size=16, max=0.6250, avg=0.2539, min=-0.0938, std=0.1888
+waterworld_ma: 2022-02-22 12:46:23,886 [INFO] Iter=480, size=16, max=0.5000, avg=0.1846, min=-0.3281, std=0.2112
+waterworld_ma: 2022-02-22 12:46:31,582 [INFO] Iter=490, size=16, max=0.5469, avg=0.2500, min=-0.0156, std=0.1667
+waterworld_ma: 2022-02-22 12:46:39,288 [INFO] Iter=500, size=16, max=0.5938, avg=0.1924, min=-0.2188, std=0.2093
+waterworld_ma: 2022-02-22 12:46:39,786 [INFO] [TEST] Iter=500, #tests=1, max=1.3125 avg=1.3125, min=1.3125, std=0.0000
+waterworld_ma: 2022-02-22 12:46:47,507 [INFO] Iter=510, size=16, max=0.8750, avg=0.2354, min=-0.0625, std=0.2343
+waterworld_ma: 2022-02-22 12:46:55,198 [INFO] Iter=520, size=16, max=0.4219, avg=0.2324, min=-0.1719, std=0.1708
+waterworld_ma: 2022-02-22 12:47:02,891 [INFO] Iter=530, size=16, max=0.5156, avg=0.1182, min=-0.2656, std=0.1833
+waterworld_ma: 2022-02-22 12:47:10,588 [INFO] Iter=540, size=16, max=1.1719, avg=0.2920, min=-0.2031, std=0.3559
+waterworld_ma: 2022-02-22 12:47:18,279 [INFO] Iter=550, size=16, max=0.7656, avg=0.1885, min=-0.2031, std=0.2546
+waterworld_ma: 2022-02-22 12:47:25,982 [INFO] Iter=560, size=16, max=0.7031, avg=0.3008, min=-0.1250, std=0.2725
+waterworld_ma: 2022-02-22 12:47:33,683 [INFO] Iter=570, size=16, max=0.5625, avg=0.1836, min=-0.3906, std=0.2401
+waterworld_ma: 2022-02-22 12:47:41,375 [INFO] Iter=580, size=16, max=0.8125, avg=0.2227, min=-0.1250, std=0.2426
+waterworld_ma: 2022-02-22 12:47:49,071 [INFO] Iter=590, size=16, max=0.9375, avg=0.2812, min=-0.1406, std=0.2775
+waterworld_ma: 2022-02-22 12:47:56,771 [INFO] Iter=600, size=16, max=0.4844, avg=0.1514, min=-0.4062, std=0.2488
+waterworld_ma: 2022-02-22 12:47:57,361 [INFO] [TEST] Iter=600, #tests=1, max=1.3125 avg=1.3125, min=1.3125, std=0.0000
+waterworld_ma: 2022-02-22 12:48:05,067 [INFO] Iter=610, size=16, max=0.7969, avg=0.2441, min=-0.2656, std=0.2996
+waterworld_ma: 2022-02-22 12:48:12,761 [INFO] Iter=620, size=16, max=0.8281, avg=0.1924, min=-0.2812, std=0.2536
+waterworld_ma: 2022-02-22 12:48:20,463 [INFO] Iter=630, size=16, max=1.0312, avg=0.3672, min=-0.0156, std=0.2512
+waterworld_ma: 2022-02-22 12:48:28,163 [INFO] Iter=640, size=16, max=0.8125, avg=0.2812, min=-0.0156, std=0.2176
+waterworld_ma: 2022-02-22 12:48:35,867 [INFO] Iter=650, size=16, max=0.6406, avg=0.3281, min=-0.0469, std=0.1807
+waterworld_ma: 2022-02-22 12:48:43,568 [INFO] Iter=660, size=16, max=0.7656, avg=0.1582, min=-0.2656, std=0.2602
+waterworld_ma: 2022-02-22 12:48:51,257 [INFO] Iter=670, size=16, max=0.9375, avg=0.3750, min=-0.0781, std=0.2786
+waterworld_ma: 2022-02-22 12:48:58,944 [INFO] Iter=680, size=16, max=0.9219, avg=0.2666, min=-0.2812, std=0.3355
+waterworld_ma: 2022-02-22 12:49:06,638 [INFO] Iter=690, size=16, max=0.9688, avg=0.2939, min=-0.0156, std=0.2633
+waterworld_ma: 2022-02-22 12:49:14,327 [INFO] Iter=700, size=16, max=0.6719, avg=0.2656, min=0.0000, std=0.2088
+waterworld_ma: 2022-02-22 12:49:14,921 [INFO] [TEST] Iter=700, #tests=1, max=0.4375 avg=0.4375, min=0.4375, std=0.0000
+waterworld_ma: 2022-02-22 12:49:22,617 [INFO] Iter=710, size=16, max=0.8438, avg=0.3135, min=-0.2344, std=0.3393
+waterworld_ma: 2022-02-22 12:49:30,300 [INFO] Iter=720, size=16, max=1.2031, avg=0.4277, min=-0.0625, std=0.3212
+waterworld_ma: 2022-02-22 12:49:37,988 [INFO] Iter=730, size=16, max=0.9688, avg=0.2383, min=-0.1406, std=0.2476
+waterworld_ma: 2022-02-22 12:49:45,679 [INFO] Iter=740, size=16, max=0.7969, avg=0.2363, min=-0.2812, std=0.2739
+waterworld_ma: 2022-02-22 12:49:53,360 [INFO] Iter=750, size=16, max=0.7812, avg=0.2988, min=-0.2812, std=0.2566
+waterworld_ma: 2022-02-22 12:50:01,048 [INFO] Iter=760, size=16, max=0.6562, avg=0.2910, min=-0.0625, std=0.1814
+waterworld_ma: 2022-02-22 12:50:08,732 [INFO] Iter=770, size=16, max=1.4531, avg=0.3994, min=-0.3281, std=0.3950
+waterworld_ma: 2022-02-22 12:50:16,410 [INFO] Iter=780, size=16, max=0.7656, avg=0.3271, min=0.0312, std=0.1915
+waterworld_ma: 2022-02-22 12:50:24,098 [INFO] Iter=790, size=16, max=1.1719, avg=0.3936, min=-0.0625, std=0.3601
+waterworld_ma: 2022-02-22 12:50:31,792 [INFO] Iter=800, size=16, max=1.1094, avg=0.3721, min=-0.3125, std=0.3854
+waterworld_ma: 2022-02-22 12:50:32,391 [INFO] [TEST] Iter=800, #tests=1, max=0.3125 avg=0.3125, min=0.3125, std=0.0000
+waterworld_ma: 2022-02-22 12:50:40,093 [INFO] Iter=810, size=16, max=0.7812, avg=0.3828, min=-0.1094, std=0.2338
+waterworld_ma: 2022-02-22 12:50:47,776 [INFO] Iter=820, size=16, max=0.9219, avg=0.3877, min=-0.2188, std=0.3578
+waterworld_ma: 2022-02-22 12:50:55,462 [INFO] Iter=830, size=16, max=0.8125, avg=0.3486, min=-0.1406, std=0.2887
+waterworld_ma: 2022-02-22 12:51:03,143 [INFO] Iter=840, size=16, max=0.9531, avg=0.3770, min=-0.0625, std=0.3229
+waterworld_ma: 2022-02-22 12:51:10,831 [INFO] Iter=850, size=16, max=0.8750, avg=0.4600, min=-0.1250, std=0.2649
+waterworld_ma: 2022-02-22 12:51:18,512 [INFO] Iter=860, size=16, max=0.7188, avg=0.2588, min=-0.4062, std=0.3381
+waterworld_ma: 2022-02-22 12:51:26,194 [INFO] Iter=870, size=16, max=0.9219, avg=0.3906, min=-0.2344, std=0.2966
+waterworld_ma: 2022-02-22 12:51:33,878 [INFO] Iter=880, size=16, max=0.8906, avg=0.3359, min=-0.3281, std=0.3375
+waterworld_ma: 2022-02-22 12:51:41,573 [INFO] Iter=890, size=16, max=0.9688, avg=0.5361, min=0.0625, std=0.2777
+waterworld_ma: 2022-02-22 12:51:49,257 [INFO] Iter=900, size=16, max=1.0312, avg=0.5576, min=-0.0469, std=0.2938
+waterworld_ma: 2022-02-22 12:51:49,860 [INFO] [TEST] Iter=900, #tests=1, max=-0.3125 avg=-0.3125, min=-0.3125, std=0.0000
+waterworld_ma: 2022-02-22 12:51:57,563 [INFO] Iter=910, size=16, max=1.1875, avg=0.5156, min=-0.1719, std=0.3763
+waterworld_ma: 2022-02-22 12:52:05,261 [INFO] Iter=920, size=16, max=1.1406, avg=0.3926, min=-0.1250, std=0.2885
+waterworld_ma: 2022-02-22 12:52:12,968 [INFO] Iter=930, size=16, max=1.0625, avg=0.4316, min=-0.0625, std=0.2677
+waterworld_ma: 2022-02-22 12:52:20,669 [INFO] Iter=940, size=16, max=1.0312, avg=0.5039, min=-0.2188, std=0.3235
+waterworld_ma: 2022-02-22 12:52:28,387 [INFO] Iter=950, size=16, max=0.7188, avg=0.3574, min=-0.2344, std=0.2371
+waterworld_ma: 2022-02-22 12:52:36,094 [INFO] Iter=960, size=16, max=1.3438, avg=0.5908, min=0.1719, std=0.3181
+waterworld_ma: 2022-02-22 12:52:43,801 [INFO] Iter=970, size=16, max=0.8438, avg=0.4443, min=-0.1719, std=0.2402
+waterworld_ma: 2022-02-22 12:52:51,503 [INFO] Iter=980, size=16, max=1.2969, avg=0.4932, min=0.0312, std=0.3123
+waterworld_ma: 2022-02-22 12:52:59,216 [INFO] Iter=990, size=16, max=1.0469, avg=0.3770, min=-0.0938, std=0.3359
+waterworld_ma: 2022-02-22 12:53:06,911 [INFO] Iter=1000, size=16, max=1.1406, avg=0.4141, min=-0.2969, std=0.3327
+waterworld_ma: 2022-02-22 12:53:07,503 [INFO] [TEST] Iter=1000, #tests=1, max=0.9375 avg=0.9375, min=0.9375, std=0.0000
+waterworld_ma: 2022-02-22 12:53:15,196 [INFO] Iter=1010, size=16, max=0.8281, avg=0.3945, min=0.0156, std=0.2471
+waterworld_ma: 2022-02-22 12:53:22,869 [INFO] Iter=1020, size=16, max=0.9062, avg=0.5195, min=-0.1562, std=0.2697
+waterworld_ma: 2022-02-22 12:53:30,547 [INFO] Iter=1030, size=16, max=1.4219, avg=0.4834, min=0.0000, std=0.3411
+waterworld_ma: 2022-02-22 12:53:38,230 [INFO] Iter=1040, size=16, max=0.9375, avg=0.5010, min=0.1250, std=0.2728
+waterworld_ma: 2022-02-22 12:53:45,904 [INFO] Iter=1050, size=16, max=1.1094, avg=0.4961, min=-0.2031, std=0.2872
+waterworld_ma: 2022-02-22 12:53:53,582 [INFO] Iter=1060, size=16, max=1.0938, avg=0.5420, min=-0.0469, std=0.3086
+waterworld_ma: 2022-02-22 12:54:01,261 [INFO] Iter=1070, size=16, max=1.0938, avg=0.5322, min=-0.3281, std=0.3772
+waterworld_ma: 2022-02-22 12:54:08,933 [INFO] Iter=1080, size=16, max=1.0938, avg=0.5010, min=-0.1562, std=0.3220
+waterworld_ma: 2022-02-22 12:54:16,612 [INFO] Iter=1090, size=16, max=1.3750, avg=0.5078, min=-0.3594, std=0.4391
+waterworld_ma: 2022-02-22 12:54:24,290 [INFO] Iter=1100, size=16, max=1.2344, avg=0.6113, min=0.1250, std=0.2659
+waterworld_ma: 2022-02-22 12:54:24,878 [INFO] [TEST] Iter=1100, #tests=1, max=0.5625 avg=0.5625, min=0.5625, std=0.0000
+waterworld_ma: 2022-02-22 12:54:32,582 [INFO] Iter=1110, size=16, max=1.0156, avg=0.5947, min=-0.0312, std=0.3075
+waterworld_ma: 2022-02-22 12:54:40,272 [INFO] Iter=1120, size=16, max=1.3438, avg=0.4873, min=0.0312, std=0.3605
+waterworld_ma: 2022-02-22 12:54:47,960 [INFO] Iter=1130, size=16, max=1.0469, avg=0.5439, min=-0.0781, std=0.2800
+waterworld_ma: 2022-02-22 12:54:55,654 [INFO] Iter=1140, size=16, max=1.3438, avg=0.5820, min=-0.1562, std=0.3638
+waterworld_ma: 2022-02-22 12:55:03,348 [INFO] Iter=1150, size=16, max=1.3281, avg=0.5342, min=-0.0781, std=0.3317
+waterworld_ma: 2022-02-22 12:55:11,040 [INFO] Iter=1160, size=16, max=1.1406, avg=0.5693, min=0.0938, std=0.2654
+waterworld_ma: 2022-02-22 12:55:18,731 [INFO] Iter=1170, size=16, max=1.0938, avg=0.4766, min=-0.1562, std=0.2950
+waterworld_ma: 2022-02-22 12:55:26,423 [INFO] Iter=1180, size=16, max=1.0781, avg=0.5713, min=0.1562, std=0.2863
+waterworld_ma: 2022-02-22 12:55:34,116 [INFO] Iter=1190, size=16, max=1.3594, avg=0.5361, min=-0.2188, std=0.3719
+waterworld_ma: 2022-02-22 12:55:41,817 [INFO] Iter=1200, size=16, max=1.1406, avg=0.6475, min=0.2500, std=0.2438
+waterworld_ma: 2022-02-22 12:55:42,421 [INFO] [TEST] Iter=1200, #tests=1, max=-0.3125 avg=-0.3125, min=-0.3125, std=0.0000
+waterworld_ma: 2022-02-22 12:55:50,113 [INFO] Iter=1210, size=16, max=1.3594, avg=0.5879, min=0.0312, std=0.3166
+waterworld_ma: 2022-02-22 12:55:57,815 [INFO] Iter=1220, size=16, max=1.1250, avg=0.4590, min=0.0000, std=0.2733
+waterworld_ma: 2022-02-22 12:56:05,512 [INFO] Iter=1230, size=16, max=1.2812, avg=0.6055, min=0.0000, std=0.3879
+waterworld_ma: 2022-02-22 12:56:13,202 [INFO] Iter=1240, size=16, max=1.1094, avg=0.4375, min=-0.1094, std=0.3202
+waterworld_ma: 2022-02-22 12:56:20,899 [INFO] Iter=1250, size=16, max=1.0781, avg=0.6035, min=0.1562, std=0.3096
+waterworld_ma: 2022-02-22 12:56:28,584 [INFO] Iter=1260, size=16, max=1.2344, avg=0.4951, min=-0.0781, std=0.3808
+waterworld_ma: 2022-02-22 12:56:36,284 [INFO] Iter=1270, size=16, max=1.4531, avg=0.5986, min=0.1250, std=0.3996
+waterworld_ma: 2022-02-22 12:56:43,976 [INFO] Iter=1280, size=16, max=1.2656, avg=0.6729, min=0.2344, std=0.3164
+waterworld_ma: 2022-02-22 12:56:51,670 [INFO] Iter=1290, size=16, max=1.3438, avg=0.7090, min=0.3438, std=0.2774
+waterworld_ma: 2022-02-22 12:56:59,370 [INFO] Iter=1300, size=16, max=0.7969, avg=0.4873, min=0.0938, std=0.2352
+waterworld_ma: 2022-02-22 12:56:59,977 [INFO] [TEST] Iter=1300, #tests=1, max=0.6875 avg=0.6875, min=0.6875, std=0.0000
+waterworld_ma: 2022-02-22 12:57:07,674 [INFO] Iter=1310, size=16, max=1.0469, avg=0.5518, min=0.0781, std=0.2886
+waterworld_ma: 2022-02-22 12:57:15,354 [INFO] Iter=1320, size=16, max=1.4062, avg=0.6240, min=0.0625, std=0.3336
+waterworld_ma: 2022-02-22 12:57:23,037 [INFO] Iter=1330, size=16, max=1.0625, avg=0.6133, min=-0.1250, std=0.2713
+waterworld_ma: 2022-02-22 12:57:30,714 [INFO] Iter=1340, size=16, max=1.0156, avg=0.5225, min=0.0312, std=0.2491
+waterworld_ma: 2022-02-22 12:57:38,398 [INFO] Iter=1350, size=16, max=1.0625, avg=0.3945, min=-0.1250, std=0.3719
+waterworld_ma: 2022-02-22 12:57:46,090 [INFO] Iter=1360, size=16, max=1.6094, avg=0.7109, min=0.0000, std=0.5084
+waterworld_ma: 2022-02-22 12:57:53,771 [INFO] Iter=1370, size=16, max=1.2500, avg=0.4980, min=-0.0781, std=0.3883
+waterworld_ma: 2022-02-22 12:58:01,453 [INFO] Iter=1380, size=16, max=1.6250, avg=0.7676, min=0.3125, std=0.3485
+waterworld_ma: 2022-02-22 12:58:09,139 [INFO] Iter=1390, size=16, max=1.1094, avg=0.6025, min=0.0781, std=0.2526
+waterworld_ma: 2022-02-22 12:58:16,822 [INFO] Iter=1400, size=16, max=1.2812, avg=0.6650, min=0.2344, std=0.2715
+waterworld_ma: 2022-02-22 12:58:17,417 [INFO] [TEST] Iter=1400, #tests=1, max=0.9375 avg=0.9375, min=0.9375, std=0.0000
+waterworld_ma: 2022-02-22 12:58:25,128 [INFO] Iter=1410, size=16, max=1.0469, avg=0.5938, min=0.1250, std=0.2774
+waterworld_ma: 2022-02-22 12:58:32,814 [INFO] Iter=1420, size=16, max=1.4062, avg=0.5771, min=0.0469, std=0.3425
+waterworld_ma: 2022-02-22 12:58:40,506 [INFO] Iter=1430, size=16, max=1.1562, avg=0.7041, min=0.2500, std=0.2695
+waterworld_ma: 2022-02-22 12:58:48,191 [INFO] Iter=1440, size=16, max=1.1406, avg=0.6660, min=0.1562, std=0.2719
+waterworld_ma: 2022-02-22 12:58:55,876 [INFO] Iter=1450, size=16, max=1.5156, avg=0.7549, min=0.2344, std=0.3859
+waterworld_ma: 2022-02-22 12:59:03,568 [INFO] Iter=1460, size=16, max=1.3281, avg=0.7412, min=0.2812, std=0.2879
+waterworld_ma: 2022-02-22 12:59:11,258 [INFO] Iter=1470, size=16, max=1.2031, avg=0.6279, min=-0.0156, std=0.3587
+waterworld_ma: 2022-02-22 12:59:18,946 [INFO] Iter=1480, size=16, max=1.5156, avg=0.6855, min=0.0312, std=0.4292
+waterworld_ma: 2022-02-22 12:59:26,628 [INFO] Iter=1490, size=16, max=1.4375, avg=0.5547, min=-0.2344, std=0.4653
+waterworld_ma: 2022-02-22 12:59:34,313 [INFO] Iter=1500, size=16, max=1.1719, avg=0.7168, min=0.2188, std=0.2839
+waterworld_ma: 2022-02-22 12:59:34,904 [INFO] [TEST] Iter=1500, #tests=1, max=0.8750 avg=0.8750, min=0.8750, std=0.0000
+waterworld_ma: 2022-02-22 12:59:42,607 [INFO] Iter=1510, size=16, max=1.3750, avg=0.7480, min=0.0000, std=0.4128
+waterworld_ma: 2022-02-22 12:59:50,299 [INFO] Iter=1520, size=16, max=1.2969, avg=0.7910, min=0.0625, std=0.2983
+waterworld_ma: 2022-02-22 12:59:57,990 [INFO] Iter=1530, size=16, max=1.3594, avg=0.7383, min=0.2188, std=0.3160
+waterworld_ma: 2022-02-22 13:00:05,688 [INFO] Iter=1540, size=16, max=1.2500, avg=0.7002, min=0.1719, std=0.3218
+waterworld_ma: 2022-02-22 13:00:13,383 [INFO] Iter=1550, size=16, max=0.9219, avg=0.5254, min=0.1562, std=0.2422
+waterworld_ma: 2022-02-22 13:00:21,075 [INFO] Iter=1560, size=16, max=1.0000, avg=0.5645, min=-0.0156, std=0.2844
+waterworld_ma: 2022-02-22 13:00:28,763 [INFO] Iter=1570, size=16, max=1.4219, avg=0.7441, min=0.0156, std=0.3535
+waterworld_ma: 2022-02-22 13:00:36,460 [INFO] Iter=1580, size=16, max=1.6406, avg=0.6914, min=0.0781, std=0.4341
+waterworld_ma: 2022-02-22 13:00:44,156 [INFO] Iter=1590, size=16, max=1.5625, avg=0.7510, min=0.0625, std=0.3810
+waterworld_ma: 2022-02-22 13:00:51,847 [INFO] Iter=1600, size=16, max=1.4062, avg=0.7412, min=-0.0781, std=0.4082
+waterworld_ma: 2022-02-22 13:00:52,451 [INFO] [TEST] Iter=1600, #tests=1, max=0.3750 avg=0.3750, min=0.3750, std=0.0000
+waterworld_ma: 2022-02-22 13:01:00,155 [INFO] Iter=1610, size=16, max=1.5000, avg=0.6582, min=-0.0625, std=0.4646
+waterworld_ma: 2022-02-22 13:01:07,857 [INFO] Iter=1620, size=16, max=1.4844, avg=0.8057, min=0.3594, std=0.3279
+waterworld_ma: 2022-02-22 13:01:15,559 [INFO] Iter=1630, size=16, max=1.9219, avg=0.7715, min=0.1406, std=0.5052
+waterworld_ma: 2022-02-22 13:01:23,259 [INFO] Iter=1640, size=16, max=1.5469, avg=0.8955, min=0.1719, std=0.3731
+waterworld_ma: 2022-02-22 13:01:30,963 [INFO] Iter=1650, size=16, max=0.9375, avg=0.6367, min=-0.0156, std=0.2529
+waterworld_ma: 2022-02-22 13:01:38,662 [INFO] Iter=1660, size=16, max=1.6406, avg=0.8359, min=0.1406, std=0.3755
+waterworld_ma: 2022-02-22 13:01:46,361 [INFO] Iter=1670, size=16, max=1.2812, avg=0.7500, min=-0.0781, std=0.3626
+waterworld_ma: 2022-02-22 13:01:54,066 [INFO] Iter=1680, size=16, max=1.5469, avg=0.8105, min=0.3750, std=0.3310
+waterworld_ma: 2022-02-22 13:02:01,769 [INFO] Iter=1690, size=16, max=1.5469, avg=0.8125, min=0.4062, std=0.3403
+waterworld_ma: 2022-02-22 13:02:09,470 [INFO] Iter=1700, size=16, max=0.9375, avg=0.5938, min=0.1250, std=0.2438
+waterworld_ma: 2022-02-22 13:02:10,057 [INFO] [TEST] Iter=1700, #tests=1, max=1.0625 avg=1.0625, min=1.0625, std=0.0000
+waterworld_ma: 2022-02-22 13:02:17,752 [INFO] Iter=1710, size=16, max=1.1562, avg=0.7324, min=0.0938, std=0.2853
+waterworld_ma: 2022-02-22 13:02:25,442 [INFO] Iter=1720, size=16, max=1.3594, avg=0.6797, min=-0.0312, std=0.3987
+waterworld_ma: 2022-02-22 13:02:33,127 [INFO] Iter=1730, size=16, max=1.3438, avg=0.8574, min=0.2969, std=0.3185
+waterworld_ma: 2022-02-22 13:02:40,821 [INFO] Iter=1740, size=16, max=1.5781, avg=0.7471, min=0.1250, std=0.4053
+waterworld_ma: 2022-02-22 13:02:48,505 [INFO] Iter=1750, size=16, max=1.5156, avg=0.8486, min=0.2969, std=0.3471
+waterworld_ma: 2022-02-22 13:02:56,189 [INFO] Iter=1760, size=16, max=1.3750, avg=0.8135, min=0.2344, std=0.2976
+waterworld_ma: 2022-02-22 13:03:03,872 [INFO] Iter=1770, size=16, max=1.2500, avg=0.6445, min=0.0938, std=0.3556
+waterworld_ma: 2022-02-22 13:03:11,561 [INFO] Iter=1780, size=16, max=1.2969, avg=0.8496, min=-0.0156, std=0.3290
+waterworld_ma: 2022-02-22 13:03:19,249 [INFO] Iter=1790, size=16, max=1.5000, avg=0.9014, min=-0.0781, std=0.4173
+waterworld_ma: 2022-02-22 13:03:26,934 [INFO] Iter=1800, size=16, max=1.2500, avg=0.7910, min=-0.0625, std=0.3786
+waterworld_ma: 2022-02-22 13:03:27,540 [INFO] [TEST] Iter=1800, #tests=1, max=1.5625 avg=1.5625, min=1.5625, std=0.0000
+waterworld_ma: 2022-02-22 13:03:35,318 [INFO] Iter=1810, size=16, max=1.1719, avg=0.7441, min=0.0625, std=0.3411
+waterworld_ma: 2022-02-22 13:03:43,004 [INFO] Iter=1820, size=16, max=1.2812, avg=0.6650, min=-0.0781, std=0.3646
+waterworld_ma: 2022-02-22 13:03:50,692 [INFO] Iter=1830, size=16, max=1.2188, avg=0.8252, min=-0.0625, std=0.3766
+waterworld_ma: 2022-02-22 13:03:58,378 [INFO] Iter=1840, size=16, max=1.5625, avg=0.9023, min=0.0000, std=0.3962
+waterworld_ma: 2022-02-22 13:04:06,080 [INFO] Iter=1850, size=16, max=1.4688, avg=0.8184, min=-0.0469, std=0.4254
+waterworld_ma: 2022-02-22 13:04:13,770 [INFO] Iter=1860, size=16, max=1.3125, avg=0.6807, min=-0.0938, std=0.4015
+waterworld_ma: 2022-02-22 13:04:21,467 [INFO] Iter=1870, size=16, max=1.3125, avg=0.5898, min=0.1094, std=0.3579
+waterworld_ma: 2022-02-22 13:04:29,153 [INFO] Iter=1880, size=16, max=1.4688, avg=0.8174, min=0.1562, std=0.3924
+waterworld_ma: 2022-02-22 13:04:36,851 [INFO] Iter=1890, size=16, max=1.4219, avg=0.7627, min=0.1562, std=0.3906
+waterworld_ma: 2022-02-22 13:04:44,537 [INFO] Iter=1900, size=16, max=1.6094, avg=0.9453, min=0.3125, std=0.3698
+waterworld_ma: 2022-02-22 13:04:45,139 [INFO] [TEST] Iter=1900, #tests=1, max=0.7500 avg=0.7500, min=0.7500, std=0.0000
+waterworld_ma: 2022-02-22 13:04:52,870 [INFO] Iter=1910, size=16, max=1.4844, avg=0.9062, min=0.0000, std=0.4169
+waterworld_ma: 2022-02-22 13:05:00,557 [INFO] Iter=1920, size=16, max=1.3125, avg=0.7354, min=0.0312, std=0.4069
+waterworld_ma: 2022-02-22 13:05:08,247 [INFO] Iter=1930, size=16, max=1.4062, avg=0.8779, min=0.4688, std=0.2850
+waterworld_ma: 2022-02-22 13:05:15,935 [INFO] Iter=1940, size=16, max=1.4844, avg=0.6748, min=0.0469, std=0.4115
+waterworld_ma: 2022-02-22 13:05:23,622 [INFO] Iter=1950, size=16, max=1.6250, avg=0.7588, min=0.1562, std=0.4028
+waterworld_ma: 2022-02-22 13:05:31,306 [INFO] Iter=1960, size=16, max=1.7344, avg=0.8008, min=-0.0938, std=0.4071
+waterworld_ma: 2022-02-22 13:05:38,999 [INFO] Iter=1970, size=16, max=1.5781, avg=0.7119, min=0.0625, std=0.4190
+waterworld_ma: 2022-02-22 13:05:46,697 [INFO] Iter=1980, size=16, max=1.5000, avg=0.7979, min=-0.1094, std=0.4872
+waterworld_ma: 2022-02-22 13:05:54,387 [INFO] Iter=1990, size=16, max=1.8281, avg=0.8535, min=-0.0625, std=0.4876
+waterworld_ma: 2022-02-22 13:06:01,905 [INFO] [TEST] Iter=2000, #tests=1, max=1.2500, avg=1.2500, min=1.2500, std=0.0000
+waterworld_ma: 2022-02-22 13:06:01,917 [INFO] Training done, best_score=1.5625
+waterworld_ma: 2022-02-22 13:06:01,955 [INFO] Loaded model parameters from ./log/PGPE/waterworld_ma/default.
+waterworld_ma: 2022-02-22 13:06:01,955 [INFO] Start to test the parameters.
+waterworld_ma: 2022-02-22 13:06:02,540 [INFO] [TEST] #tests=1, max=2.0625, avg=2.0625, min=2.0625, std=0.0000

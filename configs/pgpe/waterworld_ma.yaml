@@ -2,13 +2,13 @@ es_name: "PGPE"
 problem_type: "waterworld_ma"
 normalize: false
 es_config:
-  popsize: 16
+  pop_size: 16
   center_learning_rate: 0.011
   stdev_learning_rate: 0.054
   init_stdev: 0.095
   optimizer: "adam"
 hidden_size: 100
-num_tests: 100
+num_tests: 16
 n_repeats: 64
 max_iter: 2000
 test_interval: 100

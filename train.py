@@ -63,6 +63,7 @@ def main(config):
         logger=logger,
         normalize_obs=config.normalize,
     )
+
     trainer.run(demo_mode=False)
 
     # Test the final model.
