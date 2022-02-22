@@ -52,9 +52,9 @@ Waterworld (MA)	| 2 (max_iter=2000)	| - | - |
 *Note*: For the brax environment I reduced the population size from 1024 to 256 and increased the search iterations by the same factor (300 to 1200) in the main run. For the grid search I used a population size of 256 but with 500 iterations.
 
 
-| Cartpole-Easy  | Cartpole-Hard | MNIST |
-|---|---|---|
-![](figures/OpenES/cartpole_easy.png) | ![](figures/OpenES/cartpole_hard.png) | ![](figures/OpenES/mnist.png) |
+| Cartpole-Easy  | Cartpole-Hard | MNIST | Brax-Ant
+|---|---|---|---|
+![](figures/OpenES/cartpole_easy.png) | ![](figures/OpenES/cartpole_hard.png) | ![](figures/OpenES/mnist.png) |![](figures/OpenES/brax.png) |
 
 ### Augmented Random Search
 

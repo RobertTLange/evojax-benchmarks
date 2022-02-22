@@ -1,0 +1,30 @@
+debug: 0
+env_name: ant
+es_config:
+  decay_stdev: 0.999
+  init_stdev: 0.01
+  limit_stdev: 0.001
+  optimizer: adam
+  optimizer_config:
+    beta_1: 0.99
+    beta_2: 0.999
+    eps: 1.0e-08
+    lrate_decay: 0.999
+    lrate_init: 0.005
+    lrate_limit: 0.005
+  pop_size: 256
+es_name: OpenES
+gpu_id:
+- 0
+- 1
+- 2
+- 3
+log_interval: 20
+max_iter: 500
+n_repeats: 16
+normalize: 1
+num_tests: 128
+problem_type: brax
+search_eval_id: grid_0
+seed: 42
+test_interval: 100
